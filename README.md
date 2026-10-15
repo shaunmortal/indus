@@ -21,6 +21,7 @@ Started 15 October 2026. Goal: read the script in a way archaeologists accept. N
 - The short and tall vertical-stroke signs do not behave as a number system: not concentrated on accounting objects, value distribution peaks at 7 and 12, no place-value order, tall and short strokes have disjoint complements. Replicated on two independent transcriptions (Mahadevan 1977; ICIT/Wells). Draft: `research/note1_numerals_draft.md`.
 - Stroke-group layout is lexical for at least one value: three strokes in a row (M102) is productive; three strokes as 2-over-1 (M103) is bound to M403 in 27 of 28 cases across sites and object types.
 - No published object anywhere carries Indus signs together with a readable script. Six sweeps, documented in `research/`.
+- Two-sided tablets and sealings divide labour: side 1 carries the varied, jar-final, seal-like text; side 2 carries the short repetitive formula tall-strokes + cup (M328). Tall strokes are the administrative class, short strokes the onomastic one.
 - Seal size: after controlling for site and text length, one mid-text sign (Wells 741 = Mahadevan 343, the jar with handles) sits on seals about 25% smaller (p = 0.0003, stratified permutation, Bonferroni-corrected). The common jar closer has no size effect. First sign tied to a physical, non-textual variable. Code: `analysis/size1-4.py`.
 
 ## Proof protocol (never relaxed)

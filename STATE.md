@@ -141,6 +141,7 @@ IM77 objects with two inscribed sides: 218 miniature tablets, 196 sealings.
 - Numerals sit on side 2: tablets 79% vs 20% on side 1; sealings 65% vs 15%. Jar-final sits on side 1 (15% vs 6%; 26% vs 11%). Side 1 longer (2.9 vs 2.3; 3.9 vs 2.9) and more varied (105 vs 59 distinct; 154 vs 75).
 - Side-2 numerals are almost all TALL strokes: 38 tall vs 8 short (distinct texts), followed by M328 (14 of 46). Single-sided seals: tall 421 vs short 384, followed by M59/M342/M162/M211.
 => The two stroke classes have two homes: tall strokes + M328 is the administrative formula on the reverse of tablets/sealings; short strokes live inside seal texts (names). Side 1 of a tablet looks like a seal text; side 2 looks like a docket line. Supports F2 (two systems) with a functional explanation.
+M328 = the U/cup sign. 313 lines but only 49 distinct texts; 285 at Harappa; 268 on side 2; LAST in 272. Formula 'tall-N + 328': N=3 (111 lines), 2 (74), 4 (50), 1 (7). Harappa's mass-produced tablet reverses. Known object class (Kenoyer & Meadow HARP tablets; Mukhopadhyay 2023 reads reverses as metrological). Our contribution is the contrast with seals, not the formula itself.
 Caveat: side-2 distinct sample is small (123 texts, 46 numeral tokens).
 
 ## Standing order (Ayush, 2026-10-15)

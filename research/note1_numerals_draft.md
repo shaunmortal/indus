@@ -26,6 +26,12 @@ Three short strokes in a row (M102, 151 tokens) is productive: its commonest fol
 ## Replication on an independent transcription
 Tests 2-4 repeated on the ICIT/Wells corpus (Yajnadevam digitization, 1,918 distinct texts, G-sign numbers mapped to Mahadevan via the paragorth bridge; sequences reversed to reading order). Values: short 1 = 140, 3 = 116, 4 = 55, 5 = 30, 6 = 28, 7 = 46, 8 = 6, 12 = 36; tall 1 = 131, 2 = 227, 3 = 151. Compound orders: short-short 27, tall-tall 21, tall-short 21, short-tall 8. Complements: tall-only G520/M211 (40 vs 3), G226/M60 (13 vs 1); short-only G900/M287 (0 vs 23), G390/M161 (3 vs 47), G407/M169 (1 vs 16). The two corpora were transcribed by different scholars from different sign lists; the pattern is the same.
 
+## Where each stroke class lives (two-sided objects)
+Objects with two inscribed sides (Mahadevan corpus: 218 miniature tablets, 196 sealings) separate the two classes physically. Stroke signs sit on side 2 (tablets 79% vs 20%; sealings 65% vs 15%); the jar closer sits on side 1; side 1 is longer and more varied (105 vs 59 distinct texts on tablets), side 2 short and repetitive. Side-2 stroke signs are almost all tall (38 tall vs 8 short on distinct texts) and are followed by the cup sign M328: the Harappa formula "tall-N + cup", N = 3 (111 lines), 2 (74), 4 (50), 1 (7). Single-sided seals carry tall and short strokes in equal measure (421 vs 384) followed by a different set of signs. The tall-stroke formula is the administrative line on the reverse of a tablet; short strokes belong inside the name-like text on the obverse and on seals.
+
+## A physical correlate
+On 876 steatite square seals with measured faces (ICIT), controlling for site, text length and animal, one sign predicts seal size: the handled jar M343 (Wells 741), a mid-text sign, sits on seals about 25% smaller (delta -172 mm2, stratified permutation p = 0.0003, the only one of 36 signs to pass Bonferroni). The plain jar closer M342 has no size effect. Stroke value does not track size (tall rho = +0.12, p = 0.08; short rho = -0.04): if strokes were ranks, higher ranks do not buy larger seals.
+
 ## What this does and does not show
 It does not say what the stroke signs mean. It says that the standard reading "stroke group = number of the following item" fails four independent tests on the only full open corpus, and that at least one layout distinction is lexical. Any decipherment that assigns numeric values to these signs must first explain Tests 1-4.
 
