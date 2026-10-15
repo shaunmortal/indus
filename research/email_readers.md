@@ -117,3 +117,20 @@ A short follow-up in case my earlier messages were buried. The draft is now at v
 With thanks,
 Ayush Kumar
 Bhopal, India
+
+## DRAFT email 4: Prof. Asko Parpola (asko.parpola@helsinki.fi — address from the Columbia AMESA directory and Indology list; verify on TUHAT before sending) — NOT SENT, Ayush to approve
+Subject: The dots-in-circle side of the Harappa prism tablets: dot count = stroke count (8 of 9)
+
+Dear Professor Parpola,
+
+I am an independent researcher in Bhopal, India, working on the structure of the Indus seal texts with open, reproducible methods (repository and archived draft: github.com/shaunmortal/indus; doi:10.5281/zenodo.23399794). I write with one small observation that follows directly from your 2020 paper on the ivory-rod inscriptions, where you describe the triangular prisms H-352 to H-354 with the rod text, the 'VIII' side and the 'dots-in-circle' side.
+
+Reading the CISI vol. 1 plates (pp. 230-232), two of us independently counted the dots on the third side and the strokes beside the cup on the second side of every tablet where both are legible. On the nine tablets that carry the cup formula (H-352, 353, 354, 356, 357, 359, 362 from the plates, and H-1942 as you describe it) the number of dots equals the number of strokes on eight; the exception is H-361 (two strokes, three dots). A coin would do that with p about 0.02. The dots take only the values 2 and 3 on these rows, the same closed set the strokes take on the tablets as a whole (values 2-4; 5 never occurs beside the cup on any distinct tablet text in the published corpora). The readings are listed object by object in data/third_side_circles_v1.json in the repository, with the two readers marked.
+
+If the dots repeat the number, the third side is a second notation of the quantity rather than (or as well as) a solar motif, and 'two/three pots of offerings' acquires a cross-check inside the object itself. Nine tablets are too few to be sure. May I ask two things: (1) whether CISI vol. 3.1-3.2 photograph further three-sided tablets with a dots-in-circle side (H-2240, H-2241 and the HARP batch of 22), and whether a scan of those plates could be made available to me, since vol. 3 is not accessible in India; (2) whether, in your own reading, any tablet contradicts the equality beyond H-361.
+
+Thank you for your work on the Corpus, which made this possible from a laptop.
+
+With respect,
+Ayush Kumar
+Bhopal, India — ayushkumar2.0ds@gmail.com
