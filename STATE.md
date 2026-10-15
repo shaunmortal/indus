@@ -270,9 +270,16 @@ Books returned on archive.org (UE X, UE III) at Ayush's request.
 ### F22 (2026-10-15) Short texts are fragments of long ones — nesting test
 Of 860 distinct 2-3-sign texts, 391 (45%) occur verbatim inside a longer (>=5) text; shuffled-sign null 29% +- 1.2% (13 sd). Nested mostly at the END of the long text (2020) > mid (1500) > start (1160). Most nested: M267-M99 (opener formula, 332), M347-M342 (closer formula, 256), M59-M59, M267-M99-M59, M59-M211, M249-M162-M342. => Short seal texts are abbreviated forms of the long formula (name without opener/title), supporting a compositional slot structure; the reusable pieces are the opener and closer formulae, which the bigram model already encodes (F21).
 
+### M1b (2026-10-15) Stability-selected function classes: K = 3 — analysis/model1b_stability.py, data/model1b_consensus_classes.json
+73 frequent Wells-v3 signs, 20 runs per K on random 80% subsamples, mean pairwise Adjusted Rand: K=3 0.59, K=5 0.55, K=4 0.51, K=6 0.42, K=8 0.36, K=12 0.31. Only three classes are reproducible:
+- CLOSERS (13 signs, 1881 tokens; 67% final): jar M342, M161, M176, M211, person M1, cup M328, M12, M254, M15.
+- OPENERS (9 signs, 712 tokens; 65% initial): M267, M391, M293, M17, M150, M134, M244, M173.
+- CORE (51 signs, 4510 tokens; 69% medial): fish M59, connective M99, tall strokes M87/M89, handled jar M343, M336, M387, M97, M123, short strokes.
+=> The defensible grammar is OPENER? CORE+ CLOSER?, nothing finer. Finer 'title'/'number-name' classes (paragorth's 10 classes, our M1's 12) are not reproducible across resamples and must not be claimed.
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
-- (done) M5, M5c, U1. Remaining: write up sign-list v3 as note 3 v0.2; re-derive M1 classes on v3; Phase 4.3 segmentation.
+- (done) M5, M5c, U1, M1b, F21-F22. Remaining: note 1-3 v0.2 polish (coarse classes only); watch list; Cat. 623 U.17355 photo request (Penn/BM).
 - Write note 3: 'Looking alike is not behaving alike: an objective allograph test for the Indus sign list'.
 
 ## Anchor lead: Ur seal-impression volumes (2026-10-15)
