@@ -4,7 +4,7 @@ authors:
   - family-names: Kumar
     given-names: Ayush
     affiliation: Independent researcher, India
-version: 0.3.1
+version: 0.4.0
 doi: 10.5281/zenodo.23396758
 date-released: 2026-10-15
 repository-code: https://github.com/shaunmortal/indus
