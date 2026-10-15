@@ -28,6 +28,10 @@ Started 15 October 2026. Goal: read the script in a way archaeologists accept. N
 
 - Our own models (Phase 4): sequential structure is bigram-deep (trigram and class models add nothing on held-out texts); an unsupervised function-class model, selected for cross-resample stability, supports exactly three reproducible classes (openers, core, closers; K = 3, ARI 0.59) and no finer grammar; an allograph algorithm (drawing similarity x distributional similarity) finds that graphic resemblance carries no information about function overall (r = 0.05), and separates true allographs (fish variants, handled-jar variants, M97/M98) from look-alikes that are different signs (plain jar vs handled jar; tall vs short strokes). Merging the allograph pairs lowers held-out perplexity from 29.0 to 26.3, while merging look-alike-but-distinct pairs or random pairs does not (28.5; 28.6 +/- 0.3). Replicated on the Wells/ICIT list (perplexity 37.7 to 32.0 vs 36.9 random). A merge-adoption rule based on that test yields a corrected Mahadevan list of 404 signs (`data/model4_merges_v2.json`). Draft: `research/note3_allographs_draft.md`. Code: `analysis/model1-4*.py`.
 
+- What the texts are (F23-F30): 96% of square-seal texts occur on one seal only (unique identifiers); repeated texts are short title strings and sit on seals 14% smaller; the final sign and the sign before it are fixed to their stem (no inflectional paradigm: 11-13 sd fewer alternations than chance); identical texts recur across cities above chance, but the cases are moulded tablets and title formulae, not shipments; shared 'blocks' cover no more of the texts than a bigram process would. The defensible picture: seal text = opener formula + individual element + title block + closer, with identity carried combinatorially.
+- Two Ur excavation volumes (UE X 1951, UE III 1936) read page by page: no impression of an Indus-sign seal on any tablet or bulla; Ur is exhausted in print.
+- A frozen, hashed registry of eight falsifiable predictions for the next inscriptions to be published (`prereg/predictions-1.json`).
+
 ## Proof protocol (never relaxed)
 
 1. One sign, one value, everywhere.
