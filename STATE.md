@@ -304,6 +304,9 @@ Closer-only test: 1227 texts ending in {M342, M12, M1, M176, M211, M162, M169, M
 Pre-closer ('title') slot test: 526 jar-final texts (len>=4), stem = text minus last two; stems with >=2 different pre-closer signs: 22 vs 30.9 +- 1.0 null (9 sd fewer). The slot is broad (83 distinct signs; top 5 = M347, M8, M162, M53, M87 cover 40%) but still stem-fixed. Alternation appears only after the opener formulae (M267-M99-M59 + 10 different continuations; M391-M99 + 8), i.e. where the NAME begins, not where a title would vary.
 => Texts behave as fixed name-strings with a small closed set of closers/openers, not as stems carrying variable grammatical endings. Kober's grid method cannot get traction here; this is a structural reason the script resists syllabic decipherment.
 
+### F24 (2026-10-15) No site dialect in seal sign usage — Mohenjo-daro vs Harappa
+Distinct seal texts: Mohenjo-daro 1163, Harappa 346; 55 signs with >=25 texts; permutation of site labels (2000): none passes Bonferroni 0.0009 (best M252 over at Harappa p=0.0035, M112 p=0.04, M230 under p=0.04). Seal-sign repertoire is shared between the two cities. With F18 (no neighbourhood effect) and F17 (no time drift): the seal lexicon was uniform across the civilisation's two capitals.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
