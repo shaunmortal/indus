@@ -24,6 +24,8 @@ Started 15 October 2026. Goal: read the script in a way archaeologists accept. N
 - Two-sided tablets and sealings divide labour: side 1 carries the varied, jar-final, seal-like text; side 2 carries the short repetitive formula tall-strokes + cup (M328). Tall strokes are the administrative class, short strokes the onomastic one.
 - Seal size: after controlling for site and text length, one mid-text sign (Wells 741 = Mahadevan 343, the jar with handles) sits on seals about 25% smaller (p = 0.0003, stratified permutation, Bonferroni-corrected). The common jar closer has no size effect. First sign tied to a physical, non-textual variable. Code: `analysis/size1-4.py`.
 
+- Round vs square seals carry partly different sign sets at every site (M169, M387 round; M343, M161, M402 square). Animal emblem, excavation area, period and material show no sign association after correction. Draft: `research/note2_physical_correlates_draft.md`.
+
 ## Proof protocol (never relaxed)
 
 1. One sign, one value, everywhere.
