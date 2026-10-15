@@ -257,7 +257,7 @@ Implied cross-corpus merges tested by the adoption rule:
 - IM77 adopted: M65->M59 (fish-with-caret = fish; matches Wells W235->W240), M86->M87 (again), M169->M162. Rejected 16 incl. all of M161/167/168->M162 (so Wells's W390 lumps distinct Mahadevan signs), M103->M102 (F7 holds), M100->M99, M105->M104, M107->M106, M110->M112 (two-tier forms are NOT their one-row twins; consistent with F7).
 - ICIT adopted: W405->W390, W407->W390 (tree/rake family), W742->W741, W745->W741 (handled jars, now adopted with 5-split test), W806->W803, W817->W861 (TWO OPENERS = one sign; bridge maps both to M267; Wells over-split the commonest opener). Rejected 23.
 - Perplexity after implied merges (before per-pair filtering): IM77 26.89 -> 24.70; ICIT 33.41 -> 29.81.
-Lists v3: data/model4_merges_v3.json (Mahadevan, 17 merges -> 400 signs), data/model5_merges_wells_v3.json (Wells, 12 merges).
+Lists v3: data/model4_merges_v3.json (Mahadevan, 16 merges -> 401 signs), data/model5_merges_wells_v3.json (Wells, 12 merges).
 => Every merge in both lists is now defended by out-of-sample prediction on its own corpus, and the cross-corpus bridge has been audited the same way.
 
 ## Next session (Phase 4 continued)
