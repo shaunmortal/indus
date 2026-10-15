@@ -200,16 +200,35 @@
    "C": null,
    "circles": null,
    "conf": "not a row; 5-6 dots; counts against P18 if rows and clusters are the same mark"
+  },
+  {
+   "cisi": "H-1942",
+   "plate": "CISI vol. 3 (not on disk); described in Parpola 2020",
+   "B": "IIV (2 strokes + V)",
+   "strokes": 2,
+   "C": "two dots-in-circle",
+   "circles": 2,
+   "conf": "from Parpola 2020 text, not seen; three-sided moulded faience tablet",
+   "read_by": "Parpola 2020"
+  },
+  {
+   "cisi": "H-2240/H-2241",
+   "plate": "CISI vol. 3; Parpola 2020",
+   "B": "text (as H-942 group)",
+   "strokes": null,
+   "C": "dots-in-circle, count not given",
+   "circles": null,
+   "conf": "quadratic prisms; counts unknown"
   }
  ],
  "summary": {
-  "all_pairs": 9,
-  "match": 7,
-  "coin_p": 0.09,
-  "cup_formula_only_pairs": 8,
-  "match_cup": 7,
-  "coin_p_cup": 0.035,
-  "readers": "Claude + Ayush (independent, 12 tablets)"
+  "all_pairs": 10,
+  "match": 8,
+  "coin_p": 0.055,
+  "cup_formula_only_pairs": 9,
+  "match_cup": 8,
+  "coin_p_cup": 0.02,
+  "readers": "Claude + Ayush (plates) + Parpola 2020 (H-1942)"
  },
  "note_P18": "H-338 (fish-shaped, cluster of 5-6 dots) was seen minutes after P18 was frozen and is logged as the first observation against it; rows on rectangular tablets remain 2-3 (H-295, 352-367, 888-889)."
 }
