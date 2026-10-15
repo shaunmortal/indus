@@ -863,9 +863,10 @@
 },
 "798": {
 "M": [
-53
+53,
+216
 ],
-"source": "text-match 2026-10-15: text B M53-M171-M59-M342-M176 = W798-415-220-740-400 on 5 moulded tablets (H-203, H-748, H-767, M-468, M-469)"
+"source": "paragorth [216] + text-match 2026-10-15 adds M53 (text B on 5 moulded tablets). Wells W798 may lump two Mahadevan signs; verify drawings M53 vs M216."
 },
 "803": {
 "M": [
