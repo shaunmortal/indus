@@ -219,7 +219,13 @@ Next own-algorithm step (M3): allograph detection = image similarity of Mahadeva
 - Correlation between the two: 0.05 (permutation null 0.00 +- 0.05). Across the sign list, graphic resemblance carries essentially NO information about function.
 - TRUE ALLOGRAPH CANDIDATES (image >= 0.67, distribution >= 0.86; 15 pairs): M97~M98 (one short stroke, upper/lower: 1.00/0.93 — Mahadevan over-split), the fish family M59/M67/M70/M72 (0.88-0.96 image, 0.89-0.97 dist), the handled-jar family M343~M344~M345, M387~M389, M347~M348, M12~M15, M326~M327, M102~M109.
 - LOOK-ALIKES THAT ARE DIFFERENT SIGNS (image >= 0.67, distribution <= 0.64; 41 pairs): plain jar M342 vs handled jars M343/344/345 (image 0.91-0.97, dist 0.34-0.38); 5 tall vs 5 short strokes M96 vs M106 (1.00/0.51); M149 vs M150 (0.94/0.17); M153 vs M211 (0.92/0.19); 3 tall vs 3+3 short M89 vs M109 (0.91/0.58); cup M328 vs M336.
+Sanity check (mutual nearest neighbours in distribution space): true-allograph pairs are each other's top-3 neighbours (M97~98 ranks 2/1, M70~72 1/1, M343~344 1/1, M67~70 1/2, M67~72 2/2, M387~389 2/1); look-alike distinct pairs rank 28-102 apart (M342 vs M343 38/90, M96 vs M106 61/87, M149 vs M150 102/77).
 => An objective procedure for the sign-list problem (417 vs 592 vs 676). It says: merge the fish variants and the handled-jar variants; never merge the plain jar with the handled jar; never merge tall and short strokes of equal count. Generalises F7 and underwrites F2/F5.
+
+## Next session (Phase 4 continued)
+- M4: build the corrected sign list = Mahadevan + M3 merges (97/98; 59/67/70/72; 343/344/345; 387/389; 347/348; 326/327; 12/15; 102/109), rerun F1-F8 and M2 on it; report what changes.
+- M5: extend M3 to ICIT/Wells signs via bridge (676-sign list has far more splits) and to CISI photos later.
+- Write note 3: 'Looking alike is not behaving alike: an objective allograph test for the Indus sign list'.
 
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
