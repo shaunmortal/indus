@@ -53,16 +53,20 @@
    "strokes": 3,
    "C": "3 circle-dots",
    "circles": 3,
-   "conf": "clear"
+   "conf": "clear; independently read by Ayush 2026-10-16",
+   "ayush_strokes": 3,
+   "ayush_circles": 3
   },
   {
    "cisi": "H-357",
    "plate": "CISI1 p.231",
    "B": "V+2 visible, broken",
-   "strokes": null,
+   "strokes": 3,
    "C": "3 circle-dots",
    "circles": 3,
-   "conf": "B broken"
+   "conf": "clear; independently read by Ayush 2026-10-16",
+   "ayush_strokes": 3,
+   "ayush_circles": 3
   },
   {
    "cisi": "H-358",
@@ -80,7 +84,9 @@
    "strokes": 2,
    "C": "2 circle-dots",
    "circles": 2,
-   "conf": "clear"
+   "conf": "clear; independently read by Ayush 2026-10-16",
+   "ayush_strokes": 2,
+   "ayush_circles": 2
   },
   {
    "cisi": "H-360",
@@ -98,7 +104,9 @@
    "strokes": 2,
    "C": "3 circle-dots",
    "circles": 3,
-   "conf": "clear"
+   "conf": "clear; independently read by Ayush 2026-10-16",
+   "ayush_strokes": 2,
+   "ayush_circles": 3
   },
   {
    "cisi": "H-362",
@@ -107,7 +115,9 @@
    "strokes": 2,
    "C": "2 circle-dots",
    "circles": 2,
-   "conf": "clear"
+   "conf": "clear; independently read by Ayush 2026-10-16",
+   "ayush_strokes": 2,
+   "ayush_circles": 2
   },
   {
    "cisi": "H-364",
@@ -183,9 +193,10 @@
   }
  ],
  "summary": {
-  "pairs": 7,
-  "match": 5,
-  "coin_p": 0.23
+  "pairs": 8,
+  "match": 6,
+  "coin_p": 0.145,
+  "readers": "Claude (plates) + Ayush (5 tablets, independent)"
  },
  "note_P18": "H-338 (fish-shaped, cluster of 5-6 dots) was seen minutes after P18 was frozen and is logged as the first observation against it; rows on rectangular tablets remain 2-3 (H-295, 352-367, 888-889)."
 }
