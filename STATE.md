@@ -270,6 +270,7 @@ Re-deriving K=12 classes on the Wells v3 list (different random split) gives pai
 
 ## Anchor lead: Ur seal-impression volumes (2026-10-15)
 Legrain 1951, Ur Excavations X: Seal Cylinders (archive.org id urexcavationssea0010drll) and Legrain 1936, UE III: Archaic Seal-Impressions (urexcavationsarc0000unse) are on archive.org but LENDING-ONLY (access-restricted; downloads blocked). paragorth checked UE VII (Old Babylonian) and UE IV; nobody in our notes has checked UE X / UE III plates for round-seal or Indus-sign impressions on tablets/bullae. TASK FOR AYUSH (no museum needed): make a free archive.org account, 'Borrow' UE X, page through the plates of impressions on clay (not the cylinders) and screenshot anything with Indus-style signs or Gulf-type round impressions; also check the index for 'Indus', 'Indian', 'Mohenjo'. Then we compare against the 40 foreign-found texts.
+PROGRESS 2026-10-15 (Ayush borrowed UE X, 119 pp): search 'Indus' -> 4 hits, all the Gadd 1932 seals reproduced (p. n11: 16 seals studied by Gadd, 9 reproduced here; pp. 44-45: BM 120573 / U.7683 'SAG-KU-SI', 28x25x12 mm). Nothing new under that keyword. Next searches: impression, bulla, stamp, unknown script, unidentified; and the plates of impressions on clay.
 
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
