@@ -267,6 +267,9 @@ Re-deriving K=12 classes on the Wells v3 list (different random split) gives pai
 PMI-gated BPE-style merging on sign list v3, accepted only if held-out bits-per-sign improves: baseline 4.711; only ONE unit accepted (M336-M89, 79 train occurrences, PMI 5.0) -> 4.700; then no further gain. => Adjacency (bigram) already captures everything a 'word lexicon' would; there is no layer of reusable multi-sign words beyond fixed pairs. Consistent with M2. Segmentation 'words' claimed in the literature cannot be defended by prediction on this corpus.
 Books returned on archive.org (UE X, UE III) at Ayush's request.
 
+### F22 (2026-10-15) Short texts are fragments of long ones — nesting test
+Of 860 distinct 2-3-sign texts, 391 (45%) occur verbatim inside a longer (>=5) text; shuffled-sign null 29% +- 1.2% (13 sd). Nested mostly at the END of the long text (2020) > mid (1500) > start (1160). Most nested: M267-M99 (opener formula, 332), M347-M342 (closer formula, 256), M59-M59, M267-M99-M59, M59-M211, M249-M162-M342. => Short seal texts are abbreviated forms of the long formula (name without opener/title), supporting a compositional slot structure; the reusable pieces are the opener and closer formulae, which the bigram model already encodes (F21).
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
 - (done) M5, M5c, U1. Remaining: write up sign-list v3 as note 3 v0.2; re-derive M1 classes on v3; Phase 4.3 segmentation.
