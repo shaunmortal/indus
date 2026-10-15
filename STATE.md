@@ -242,6 +242,12 @@ Unblocked by the Indus font in yajnadevam/indus-website (GPL-3; src/assets/fonts
 - Validation (M4 protocol, ICIT): published ppl 37.65; M5 merges (14 signs folded) 32.01; look-alike-distinct merges 35.04; random same-count merges 36.87 +- 0.41 (best 35.86). The algorithm's merges beat random by ~12 sd on a second corpus.
 ICIT's own GLYPHSIMILARITY table (69 pairs) barely overlaps the frequent signs (2 pairs); not comparable.
 
+### M5c (2026-10-15) Adoption rule on Wells merges — analysis/model5c_adopt_wells.py, data/model5_merges_wells_v2.json
+- W405/W407 share font codepoint E1F0 (pixel-identical): image 1.00 is a FONT ARTEFACT; pair rejected by the rule anyway (-0.322 vs threshold -0.328).
+- Null single merge -0.082 +- 0.123, threshold -0.328. ADOPTED (6): fish family W231->W233->W220, W235->W240->W220 (all fish variants = one sign), W31->W32 (tall-1 = tall-2!), W706->W705. REJECTED: W806->W803, W742/W745->W741 (handled-jar variants stay separate here, unlike IM77), W923->W904, W156->W151, W630->W615, W384->W388.
+- Wells list v2: 586 signs, ppl 33.41 (from 37.65).
+Flag: W31~W32 adoption says one and two tall strokes are interchangeable in context. Cross-check on IM77 (M86 vs M87) pending.
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
 - (done) M5. Remaining: run the adoption rule on Wells merges; check W405/W407 font artefact; build one cross-corpus corrected list via bridge_WM.
