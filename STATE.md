@@ -386,6 +386,7 @@ CAVEAT (same evening, replication): (1) Mahadevan 1977 pottery (independent tran
 - Round-seal lexicon: what co-occurs with M169/M387 on round seals; are round-seal texts shorter/longer; do they lack the jar closer (paragorth says home frame 13%).
 
 ## Next (in order)
+0. (done 2026-10-15 late) data/title_blocks_v1.json: the title-block inventory promised in paper section 6 (18 blocks, 85 unique names; top: W220-705-33 / M59-336-89 + W520 on 22 names, 22 distinct individual parts; W255-435-690 / M51-130-149 + jar on 10). analysis/title_blocks.py.
 1. (done) F5 completed by F15/F16 (two-tier strokes in stroke_signs.json; semicircles F16; per-site F24 no dialect); written up in paper v0.4 section 2.
 2. Download PNAS 2021 Dataset S1; test whether stroke-count sets match weight-denomination sets per commodity sign.
 3. (done) Repo public: https://github.com/shaunmortal/indus. Commit after every session.
