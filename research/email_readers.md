@@ -106,3 +106,14 @@ Understood, thank you. The export will be removed in the next release of the rep
 With thanks,
 Ayush Kumar
 Bhopal, India
+
+## DRAFT follow-up to Frenez (send on or after 2026-10-29 if no reply)
+Subject: Re: A reproducible structural account of the Indus seal texts — request for a critical read
+
+Dear Dr Frenez,
+
+A short follow-up in case my earlier messages were buried. The draft is now at v0.5 (same repository and DOI line as before) and the one wrong figure was corrected on 15 October. Since then I have added a title-block inventory, a mechanical scoring script for the registered predictions, and a quantified note on what a single anchor would unlock, which bears directly on your branding reading: the text channel individuates even where the motif channel standardises. If a critical read is not possible, one line pointing me to the right reader would be just as valuable.
+
+With thanks,
+Ayush Kumar
+Bhopal, India
