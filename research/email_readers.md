@@ -64,3 +64,12 @@ One figure in my earlier message was wrong and I want to correct it before you s
 
 With apologies for the error,
 Ayush Kumar
+
+
+## REPLY LOG
+### Andreas Fuls, 2026-10-15 21:40 IST (reply to email 2)
+> Dear , the ICIT is not available anymore, but you can check my latest publications at https://www.amazon.com/dp/B0CCL11SSJ https://www.amazon.com/dp/B0CCKV9XQV
+> I also recommend to read the books Wells, Bryan K.: Epigraphic Approaches To Indus Writing. Oxbow books, Oakville and Oxford 2011. Wells, Bryan K.: The Archaeology and Epigraphy of Indus Writing. Archaeopress, Oxford 2015.
+> Kind regards, Andreas Fuls, Berlin (Germany)
+
+Read: polite, no engagement with the results, ICIT closed. Identified: ASINs = his 'Corpus of Indus Inscriptions' (2022/2023) and 'A Catalog of Indus Signs' (2023). Logged in STATE readers section.
