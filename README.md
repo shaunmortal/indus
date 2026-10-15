@@ -15,7 +15,7 @@ Started 15 October 2026. Goal: read the script in a way archaeologists accept. N
 | `analysis/` | All code. `stats0.py` baseline stats; `numerals1-7` the stroke-sign tests; `diachronic1.py`; `concord1-2.py` sign concordance; `holdout.py` the sealed test set. |
 | `data/stroke_signs.json` | Complete stroke-sign inventory read from Mahadevan's drawings. |
 | `data/title_blocks_v1.json` | Title-block inventory (F28): 18 three-sign blocks shared by >=3 unique square-seal texts, with closers, sites and individual parts (85 names); replicated on Mahadevan 1977 in `data/title_blocks_v1_mahadevan.json` (38 blocks, 169 names). `analysis/title_blocks.py`. |
-| `data/bridge_WM.json` | Mahadevan <-> Wells/ICIT sign concordance, 165 signs, with provenance. |
+| `data/bridge_WM.json` | Mahadevan <-> Wells/ICIT sign concordance, 176 signs (88.6% of ICIT tokens), with provenance per pair (paragorth; text-alignment voting; glyph-similarity matches verified by eye, `analysis/concord3_image.py`). |
 | `data/holdout/holdout.sha256` | SHA-256 of the sealed 30% hold-out (966 texts). `holdout.json` itself is never read by analysis code. |
 | `data/raw/` | Corpora and books (not committed; see Sources). |
 
