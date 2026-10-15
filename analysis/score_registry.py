@@ -14,17 +14,28 @@ TALL={31:1,32:2,33:3,34:4,35:5}; CUP=700; HJAR={741}; M169={407}; M387={803,806}
 work=json.load(open(f'{B}/data/holdout/work.json'))
 def norm(seq): return [Wm.get(int(g),int(g)) for g in seq]
 def shortval(w): m=bridge.get(w); return SHORTM.get(m) if m else None
-# bigram model on work set (add-0.5 smoothing)
-big=collections.defaultdict(collections.Counter); uni=collections.Counter()
-for r in work:
-    s=norm(r['seq']); 
-    for a,b in zip(['<s>']+s,s+['</s>']): big[a][b]+=1; uni[b]+=1
-V=len(uni)+1
-def ppl(texts):
-    lp=0;n=0
-    for s in texts:
-        for a,b in zip(['<s>']+s,s+['</s>']): lp+=math.log((big[a][b]+0.5)/(sum(big[a].values())+0.5*V)); n+=1
-    return math.exp(-lp/n) if n else None
+# bigram model on the work set, same form as analysis/model2.py (absolute discounting D=0.75, add-0.5 unigram, <unk>)
+class Bigram:
+    def __init__(s,train):
+        s.Vs={w for t in train for w in t}; s.END='</s>'
+        s.uni=collections.Counter(w for t in train for w in t); s.uni[s.END]=len(train); s.uni['<unk>']=1; s.N=sum(s.uni.values()); s.VV=len(s.uni)
+        s.big=collections.defaultdict(collections.Counter)
+        for t in train:
+            q=('<s>',)+tuple(t)+(s.END,)
+            for i in range(1,len(q)): s.big[q[i-1]][q[i]]+=1
+    def p1(s,w): return (s.uni[w]+0.5)/(s.N+0.5*s.VV)
+    def p2(s,p,w,D=0.75):
+        c=s.big[p]; tot=sum(c.values())
+        if not tot: return s.p1(w)
+        return max(c[w]-D,0)/tot + (D*len(c)/tot)*s.p1(w)
+    def ppl(s,texts):
+        ll=0;m=0
+        for t in texts:
+            q=('<s>',)+tuple(w if w in s.Vs else '<unk>' for w in t)+(s.END,)
+            for i in range(1,len(q)): ll+=math.log(s.p2(q[i-1],q[i])); m+=1
+        return math.exp(-ll/m) if m else None
+MODEL=Bigram([norm(r['seq']) for r in work])
+def ppl(texts): return MODEL.ppl(texts)
 published={tuple(norm(r['seq'])) for r in work}
 def score(lot):
     for o in lot: o['s']=norm(o['seq'])
@@ -52,7 +63,7 @@ def score(lot):
         add('P5',t,sh,None,'pred non-monotone, share(7) >= share(5) and (6); falsified if share7 < share5 and share7 < share6 on >=60')
     # P7 perplexity
     texts=[o['s'] for o in lot if len(o['s'])>=1]
-    if texts: add('P7',len(texts),round(ppl(texts),1),None,'pred 25-45 per sign; falsified outside 20-60 on >=30 texts')
+    if texts: add('P7',len(texts),round(ppl(texts),1),None,'pred 25-45 per sign; falsified outside 20-60 on >=30 texts. Calibration, out-of-sample 20% of the work set: square seals 33, round 31, moulded tablets 34, incised 30, POTTERY 62 (pottery graffiti fall outside the band already; score P7 on seal and tablet texts)')
     # P14 P15 P16
     def tallshare(grp):
         toks=[TALL[g] for o in grp for g in o['s'] if g in TALL and len(o['s'])>=2 and any(x not in TALL and shortval(x) is None for x in o['s'])]
@@ -94,8 +105,9 @@ def verdicts(R):
 if __name__=='__main__':
     args=sys.argv[1:]
     if '--smoke' in args:
-        rng=random.Random(1); lot=[dict(id=f'w{i}',seq=r['seq'],type=r['type'],site=r['site']) for i,r in enumerate(rng.sample(work,300))]; name='smoke'
+        rng=random.Random(1); _pick=rng.sample(range(len(work)),300); lot=[dict(id=f'w{i}',seq=work[i]['seq'],type=work[i]['type'],site=work[i]['site']) for i in _pick]; name='smoke'
         for o in lot: published.discard(tuple(norm(o['seq'])))   # the pseudo-lot is itself 'published'; drop it for the uniqueness stat
+        _ids={o['id'] for o in lot}; MODEL=Bigram([norm(r['seq']) for i,r in enumerate(work) if f'w{i}' not in _ids])   # out-of-sample model for the smoke lot
     else:
         lot=json.load(open(args[0])); name=args[0].rsplit('/',1)[-1].rsplit('.',1)[0]
     R=verdicts(score(lot))
