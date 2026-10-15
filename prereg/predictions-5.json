@@ -1,0 +1,24 @@
+{
+ "author": "Ayush Kumar (India), with Claude",
+ "basis": "plate readings of 14 circle-dot sides (CISI vol. 1 pp. 230-232, vol. 2 p. 337), all 2 or 3; no hold-out involved (the third side is in no corpus)",
+ "frozen": "2026-10-16",
+ "predictions": [
+  {
+   "falsifier": "on >= 15 newly read sides, >= 3 carry 1, 4 or more circle-dots",
+   "id": "P18",
+   "n_basis": 14,
+   "predicted": "2 or 3",
+   "scope": "any incised tablet (any site) with a side carrying a row of circle-dots, not yet read by us",
+   "stat": "number of circle-dots"
+  },
+  {
+   "falsifier": "not a falsifiable claim; registered to fix the two hypotheses before more sides are read",
+   "id": "P19",
+   "n_basis": 7,
+   "predicted": "undetermined; if the circles are a second notation of the same value the share will exceed 0.85; if an independent mark it will sit near the chance level for two values (~0.5)",
+   "scope": "three-sided incised tablets with a legible cup+strokes side and a legible circle-dot side, not yet read by us",
+   "stat": "share with circle count = stroke count"
+  }
+ ],
+ "source": "F40, data/third_side_circles_v1.json"
+}
