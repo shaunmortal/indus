@@ -1,6 +1,6 @@
 # Indus Script Project
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23396758.svg)](https://doi.org/10.5281/zenodo.23396758)  Cite as: Ayush Kumar (2026), v0.3.1, doi:10.5281/zenodo.23396758
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23396758.svg)](https://doi.org/10.5281/zenodo.23396758)  Cite as: Ayush Kumar (2026), v0.3.1, doi:10.5281/zenodo.23396758 (all versions: 10.5281/zenodo.23396757)
 
 **Ayush Kumar (India)** — an open, data-first attempt at the Indus Valley script, with computational assistance from Claude.
 Started 15 October 2026. Goal: read the script in a way archaeologists accept. No pivots, no compromise.
