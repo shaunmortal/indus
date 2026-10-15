@@ -225,6 +225,11 @@ Sanity check (mutual nearest neighbours in distribution space): true-allograph p
 ### M4 (2026-10-15) The merges are validated by prediction — analysis/model4_merged.py, data/model4_merges.json
 IM77 distinct texts (2409). Held-out bigram perplexity: published 417-sign list 29.0; with the 11 M3 allograph merges (406 signs) 26.3; with 10 look-alike-but-distinct merges 28.5; 60 random 11-pair merges among frequent signs 28.6 +- 0.3 (best 27.4). Conditional entropy 3.42 -> 3.38 bits. => M3's merges make the corpus more predictable by ~7 sd beyond arbitrary merges; the 'wrong' merges do nothing. Note 3 drafted: research/note3_allographs_draft.md.
 
+### M4 follow-ups (2026-10-15)
+- F5 on the 406 list (M109 folded into M102): short values 1=153, 3=141, 4=54, 5=34, 6=3, 7=64, 12=52. The 'favourite numbers' 1, 3, 7, 12 sharpen; 6 nearly vanishes (it was mostly 3+3). F2 complements unchanged (M211 42/2, M328 20/0, M287 0/25, M162 6/38, M169 5/36).
+- M3b (threshold 8 tokens, analysis/model3b_allographs_min8.py): 26 candidates. New: leaf-trident family M386~M387~M389 (+M375), person variants M12~M14~M15, and M112~M121 (7 as 4+3 vs 12 as 4+4+4: image 0.80, dist 0.85) — the multi-tier stroke 'number-names' behave as one family. Look-alike-distinct pairs: 91.
+=> Corrected list v2 candidate: 406 minus {386,14,375?,121?} merges; test each by perplexity before adopting (M4 protocol).
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
 - M5: extend M3 to ICIT/Wells signs via bridge (676-sign list has far more splits) and to CISI photos later.
