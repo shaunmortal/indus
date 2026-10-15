@@ -1,3 +1,5 @@
+> Status 2026-10-16: superseded by research/paper_v0.5.md (and the DOI'd v0.4). Kept for the record; numbers here may predate corrections F23, F32-F39.
+
 # Stroke signs in the Indus script are not a number system
 ### Ayush Kumar (India), with computational assistance from Claude. Draft v0.2, 15 October 2026.
 
