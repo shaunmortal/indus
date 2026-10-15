@@ -319,6 +319,9 @@ Note: a naive null that shuffles lines (not distinct pairs) gives 173 and revers
 1296 square seals with >=3 signs carry 1219 distinct texts: 1167 texts (96%) occur on exactly one seal; 36 on two, 10 on three, 3 on four, 3 on five. 90% of all seals carry a text found on no other seal. Repeated texts are shorter (mean 3.6 signs vs 5.2 for unique) and formulaic: opener + stroke + tree (M267-M99-M102-M161 x5, M267-M99-M104-M161 x5, M391-M99-M102-M161 x4), M249-M161-M342 x5 (five sites), M59-M53-M342 x4.
 => The seal text is an identifier of one owner (name-like), with a small set of short repeated title/office strings shared across cities. This is the quantitative basis for 'seals = personal names + titles'; together with F23 (no inflection) and F12/F19 (size and shape correlates) it fixes what kind of text we are trying to read.
 
+### F27 (2026-10-15) Repeated (title-like) texts sit on smaller seals — analysis/size7.py
+876 steatite square seals with measured faces; 150 carry a text found on >=2 seals. Site x length strata, 4000 permutations: repeated-text seals are 97 mm2 smaller (-14% of median), p=0.003. => Seals bearing shared office/title strings were cheaper objects than seals bearing unique identifiers. Fits F12 (M343 small-seal sign) and F26: the social hierarchy of the seal corpus runs name > title.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
