@@ -157,6 +157,20 @@ Anchor routes closed in print: Ur archives, Bahrain/Failaka sealings, Umma, Pari
 Anchor routes still open: (1) unpublished Dholavira inscriptions as hold-out; (2) Kanmer same-seal/different-text tablets; (3) weights datasets (PNAS 408, Ascalone 900) joined to inscriptions; (4) Salut ST1 stamped jar; (5) Parpola 1994 QAB catalogue (library); (6) Lothal seal with cuneiform-style wedges (Frenez 2023 fig.12D).
 Our own data results so far: F1, F2, F5 (numerals are formulaic, two stroke classes, Wells' tens hypothesis fails). None published elsewhere in this form.
 
+## Phase 2: Signs in space and time (started 2026-10-15)
+Goal: tie signs to non-textual variables with controls (the F12 method), because anchors are closed in print.
+2A. Sign x excavation AREA at Mohenjo-daro / Harappa (merged corpus area-section, block-house; IM77 locus/level), stratified by object type x text length, permutation, Bonferroni.
+2B. Sign x LEVEL/period within site (time), same controls.
+2C. Sign x material / seal shape / boss / thickness.
+2D. Replicate any survivor on the second corpus.
+
+### F17 (2026-10-15) Sign repertoire is stable over time within a site — analysis/space1.py
+Mohenjo-daro Intermediate (401 objects) vs Late (317): 76 sign x period tests, none survives Bonferroni 0.00066; closest tall-2 M87 enriched in Late (45 vs 32 exp, p=0.0015), short-3 M102 in Intermediate (p=0.003). Harappa 3B (530) vs 3C (412): nothing (best p=0.016). The writing system did not drift measurably across the urban phases. Consistent with F9.
+
+### F18 (2026-10-15) Signs are not neighbourhood markers — analysis/space1.py (area mapping fixed)
+Mohenjo-daro: 1258 objects across DK-G South (554), HR (201), DK-G North (120), DK-C, VS, DK-E, DK-B, DK-G; 225 sign x area tests, stratified by object class x length: NONE survives Bonferroni 0.00022 (best DK-G x M25 p=0.006, 5 obs vs 1.3 exp). Harappa: 1133 objects across Mounds F, ET, AB, E, D; 113 tests; ONE survivor: M176 (W400) enriched on Mound F (107 vs 87 expected, ratio 1.23, p<0.0005). M176 is the Harappa-typical sign after the jar closer; Mound F = Vats' old excavations, so an excavator/recording confound is possible.
+=> Sign repertoires are city-wide. No quarter, guild or family signature in the text content. Seals (names) were not tied to where they were found. Combined with F14 (no animal tie) and F17 (no time drift): the only external correlate found so far is seal SIZE (F12).
+
 ## Next (in order)
 1. Complete F5: add two-tier strokes and semicircle signs; run per-site. Write it up as a 2-page note under Ayush's name.
 2. Download PNAS 2021 Dataset S1; test whether stroke-count sets match weight-denomination sets per commodity sign.
