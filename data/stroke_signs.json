@@ -64,5 +64,17 @@
   "119": 3,
   "120": 4
  },
- "note": "read from Mahadevan 1977 sign drawings on 2026-10-15; 113 and 123 excluded (unclear)"
+ "note": "read from Mahadevan 1977 sign drawings on 2026-10-15; 113 and 123 excluded (unclear)",
+ "arc": {
+  "312": 1,
+  "313": 2,
+  "314": 3,
+  "315": 7
+ },
+ "ligature_strokes_inside": {
+  "329": "U+2",
+  "330": "U+3",
+  "344": "jar+2",
+  "345": "jar+3"
+ }
 }

@@ -32,6 +32,9 @@ Objects with two inscribed sides (Mahadevan corpus: 218 miniature tablets, 196 s
 ## A physical correlate
 On 876 steatite square seals with measured faces (ICIT), controlling for site, text length and animal, one sign predicts seal size: the handled jar M343 (Wells 741), a mid-text sign, sits on seals about 25% smaller (delta -172 mm2, stratified permutation p = 0.0003, the only one of 36 signs to pass Bonferroni). The plain jar closer M342 has no size effect. Stroke value does not track size (tall rho = +0.12, p = 0.08; short rho = -0.04): if strokes were ranks, higher ranks do not buy larger seals.
 
+## The "tens" that are not there
+Parpola's decimal reading makes inverted semicircles the tens. In the Mahadevan corpus the semicircle signs (M312-M315: one, two, three and a stack of arcs) occur 2, 2, 1 and 1 times on distinct texts. The decimal system rests on six tokens. By contrast the jar and cup signs with strokes drawn inside them (M329, M330, M344, M345: 7, 7, 33, 41 tokens) are mid-text or initial elements on seals, never closers; the stroke count inside them is part of a word, not a quantity attached to it.
+
 ## What this does and does not show
 It does not say what the stroke signs mean. It says that the standard reading "stroke group = number of the following item" fails four independent tests on the only full open corpus, and that at least one layout distinction is lexical. Any decipherment that assigns numeric values to these signs must first explain Tests 1-4.
 
@@ -39,5 +42,4 @@ It does not say what the stroke signs mean. It says that the standard reading "s
 Code: `analysis/numerals1.py` to `numerals6.py`. Data: IM77 export (Mahadevan 1977, via indusscript.in; redistributed in github.com/paragorth/Indus- under MIT with attribution). Sign drawings: indusscript.in/assets/images/{0-417}.png.
 
 ## To do before circulation
-- Add semicircle "tens" signs (Parpola) to the inventory and rerun.
 - Compare with Mukhopadhyay 2019 (22 NUM signs; strokes precede CROP signs) sign by sign.

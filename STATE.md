@@ -95,7 +95,7 @@ Test 2: short 1=140, 3=116, 4=55, 5=30, 6=28, 7=46, 8=6, 12=36 (peaks at 7 and 1
 Test 3: compound orders SS27 TT21 TS21 ST8 (no fixed order).
 Test 4: tall-only G520/M211 40 vs 3, G226/M60 13 vs 1, G590/M249 17 vs 3; short-only G900/M287 0 vs 23, G390/M161 3 vs 47, G407/M169 1 vs 16, G575/M197 1 vs 13. Same split, independent transcription.
 Numeral note drafted: research/note1_numerals_draft.md (F8 added).
-Semicircle 'tens' signs: not in M362-417 (those are leaf/oval signs, contact sheet analysis/img/signs_362_417.png). Still to locate in M192-361.
+Semicircle signs located: M312-M315 (F16).
 
 ### Data (2026-10-15 evening): ICIT open database extracted
 From paragorth repro package (yajnadevam/indus-website SQL): data/icit_seal.csv (2543 seals: site, material, CISI number for 2375, museum for 299, dimensions for 2305), icit_site.csv (52 sites), icit_iconography.csv (1622), icit_inscription.csv (direction/completeness), icit_glyph.csv (G-sign -> font PUA codepoint). CISI numbers = the key for aligning ICIT texts with M77 and with CISI photos.
@@ -143,6 +143,11 @@ IM77 objects with two inscribed sides: 218 miniature tablets, 196 sealings.
 => The two stroke classes have two homes: tall strokes + M328 is the administrative formula on the reverse of tablets/sealings; short strokes live inside seal texts (names). Side 1 of a tablet looks like a seal text; side 2 looks like a docket line. Supports F2 (two systems) with a functional explanation.
 M328 = the U/cup sign. 313 lines but only 49 distinct texts; 285 at Harappa; 268 on side 2; LAST in 272. Formula 'tall-N + 328': N=3 (111 lines), 2 (74), 4 (50), 1 (7). Harappa's mass-produced tablet reverses. Known object class (Kenoyer & Meadow HARP tablets; Mukhopadhyay 2023 reads reverses as metrological). Our contribution is the contrast with seals, not the formula itself.
 Caveat: side-2 distinct sample is small (123 texts, 46 numeral tokens).
+
+### F16 (2026-10-15) The "tens = semicircles" notation rests on 6 tokens; the jar-with-strokes ligatures are mid-text name elements — analysis/numerals8.py
+Semicircle signs located (M312 1 arc, M313 2 arcs, M314 3 arcs, M315 stack): 2, 2, 1, 1 distinct-text tokens. Parpola's decimal "tens" system has essentially no corpus support; any numeral theory built on it is built on six tokens.
+Ligatures with strokes INSIDE the sign: M329 (U+2) 7, M330 (U+3) 7, M344 (jar+2) 33, M345 (jar+3) 41 tokens. All MID-text or initial on seals (M344 mid 26/33, M345 mid 24/41), never closers. The plain jar M342 is the closer (998). So the jar family splits: M342 = closer; M343/344/345 = mid-text elements (and M343 marks smaller seals, F12). Strokes inside a sign are part of a word, not a count attached to it.
+Semicircle 'to do' in note 1 is now closed.
 
 ## Standing order (Ayush, 2026-10-15)
 Do not stop. Every session: continue "Next". Final report must be "Badhai ho Ayush" (with proof passing the protocol) or "Sorry Ayush" (with the complete map of everything searched). No fake Badhai.
