@@ -1,0 +1,163 @@
+{
+ "basis": "Claude readings of CISI plates 2026-10-16; the circle-dot side is transcribed in NO corpus (ICIT and Mahadevan omit it)",
+ "readings": [
+  {
+   "cisi": "H-352",
+   "plate": "CISI1 p.230",
+   "B": "V+3",
+   "strokes": 3,
+   "C": "3 circle-dots",
+   "circles": 3,
+   "conf": "clear"
+  },
+  {
+   "cisi": "H-353",
+   "plate": "CISI1 p.230",
+   "B": "V+3",
+   "strokes": 3,
+   "C": "3 circle-dots",
+   "circles": 3,
+   "conf": "clear"
+  },
+  {
+   "cisi": "H-354",
+   "plate": "CISI1 p.230",
+   "B": "strokes+V+strokes, split",
+   "strokes": null,
+   "C": "3 circle-dots",
+   "circles": 3,
+   "conf": "B ambiguous"
+  },
+  {
+   "cisi": "H-351",
+   "plate": "CISI1 p.230",
+   "B": "V+4?",
+   "strokes": 4,
+   "C": "X cross, no circles",
+   "circles": null,
+   "conf": "C not circles"
+  },
+  {
+   "cisi": "H-355",
+   "plate": "CISI1 p.231",
+   "B": "V+3",
+   "strokes": 3,
+   "C": "V+3 repeated (strokes, no circles)",
+   "circles": null,
+   "conf": "C not circles"
+  },
+  {
+   "cisi": "H-356",
+   "plate": "CISI1 p.231",
+   "B": "V+3",
+   "strokes": 3,
+   "C": "3 circle-dots",
+   "circles": 3,
+   "conf": "clear"
+  },
+  {
+   "cisi": "H-357",
+   "plate": "CISI1 p.231",
+   "B": "V+2 visible, broken",
+   "strokes": null,
+   "C": "3 circle-dots",
+   "circles": 3,
+   "conf": "B broken"
+  },
+  {
+   "cisi": "H-358",
+   "plate": "CISI1 p.231",
+   "B": "4+V",
+   "strokes": 4,
+   "C": "blank/eroded",
+   "circles": null,
+   "conf": "C unreadable"
+  },
+  {
+   "cisi": "H-359",
+   "plate": "CISI1 p.231",
+   "B": "2+V",
+   "strokes": 2,
+   "C": "2 circle-dots",
+   "circles": 2,
+   "conf": "clear"
+  },
+  {
+   "cisi": "H-360",
+   "plate": "CISI1 p.231",
+   "B": "text, no cup",
+   "strokes": null,
+   "C": "2 circle-dots",
+   "circles": 2,
+   "conf": "no stroke side"
+  },
+  {
+   "cisi": "H-361",
+   "plate": "CISI1 p.231",
+   "B": "V+2",
+   "strokes": 2,
+   "C": "3 circle-dots",
+   "circles": 3,
+   "conf": "clear"
+  },
+  {
+   "cisi": "H-362",
+   "plate": "CISI1 p.231",
+   "B": "V+2",
+   "strokes": 2,
+   "C": "2 circle-dots",
+   "circles": 2,
+   "conf": "clear"
+  },
+  {
+   "cisi": "H-364",
+   "plate": "CISI1 p.232",
+   "B": "2 circle-dots (side B)",
+   "strokes": null,
+   "C": null,
+   "circles": 2,
+   "conf": "A is text with strokes; no cup side read"
+  },
+  {
+   "cisi": "H-365",
+   "plate": "CISI1 p.232",
+   "B": "3 circle-dots",
+   "strokes": null,
+   "C": "3 circle-dots (E also 3)",
+   "circles": 3,
+   "conf": "circles on three faces"
+  },
+  {
+   "cisi": "H-367",
+   "plate": "CISI1 p.232",
+   "B": "3 strokes, no V",
+   "strokes": 3,
+   "C": "2 circle-dots",
+   "circles": 2,
+   "conf": "clear"
+  },
+  {
+   "cisi": "H-888",
+   "plate": "CISI2 p.337",
+   "B": "3 circle-dots",
+   "strokes": null,
+   "C": null,
+   "circles": 3,
+   "conf": "two-sided, A text"
+  },
+  {
+   "cisi": "H-889",
+   "plate": "CISI2 p.337",
+   "B": "3 circle-dots",
+   "strokes": null,
+   "C": null,
+   "circles": 3,
+   "conf": "two-sided, A text"
+  }
+ ],
+ "summary": {
+  "pairs": 7,
+  "match": 5,
+  "coin_p": 0.23
+ }
+}

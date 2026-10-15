@@ -13,6 +13,7 @@ Purpose: the standing order requires that a final verdict, whichever way, come w
 | Physical correlates | F12 (M343 on smaller seals; the 1930s 're-analysis' uses the same measurements, F36; no support on the small independent metric subset, F37), F13, F14 (no sign x animal), F17 (no drift), F18, F19 (round-seal lexicon), F24 (no site dialect), F27 | shape and size correlate; emblem, site, date do not |
 | What the texts are | F22, F25, F26 (96% unique), F28/F29 (title blocks, opener formulae), title_blocks_v1 (replicated) | personal identifiers: opener formula + individual + title block + closer |
 | Tamil Nadu graffiti continuity | F31 (look-alikes do not behave alike, p = 0.51) | closed (side test) |
+| Third side of incised tablets (circle-dots, untranscribed) | F40: 17 plate readings; 5/7 match the stroke count; values only 2-3 | open: transcribe all C sides (CISI vol. 1 pp. 223-233), then test |
 | Hold-out / registry | 30% sealed (SHA-256 public), P1-P16 frozen, score_registry.py | ready; waiting for new inscriptions |
 
 ## B. Anchor routes (one object joining Indus signs to a readable script or a quantity)
