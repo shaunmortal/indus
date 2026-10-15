@@ -24,3 +24,5 @@ Distinct Wells texts (1,918); context vector = left+right neighbours; cosine per
 - 140-158 (our look-alike-distinct pair): cos 0.18 (38th pct) -> confirmed distinct.
 - 31-32 (merged in Wells v3): cos 0.71 (95th pct); Wells fig. 5.3 treats 031/032 as numerals with syllabic use -> consistent with our 'interchangeable' result.
 Reading: Wells's hand-picked allograph examples are the kind our test rates as similar-but-unproven; nothing contradicts either side. Decide after reading the chapter.
+
+## Ch. 4 volumetric claim tested (2026-10-15): see STATE F33. Tall strokes on pottery have a flatter, higher value profile than on seals/tablets; short strokes do not. Partial support for a count reading on pots only.

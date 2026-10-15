@@ -370,6 +370,13 @@ Fuls's point (ICIT copy mixes complete and possibly-complete texts) tested on Ma
 - Short-stroke value profile (per distinct text): 1=151, 3=133, 4=49, 5=34, 6=3, 7=60, 8=7, 9=4, 10=1, 12=49 -> 136, 117, 43, 32, 3, 49, 4, 4, 1, 40. Same shape (7 and 12 peaks over 8-10 and 6).
 => The structural results do not depend on doubtful or fragmentary readings. For the ICIT replication the flag is unavailable (F-note in paper §7); the Mahadevan primary results are clean.
 
+### F33 (2026-10-15) Tall strokes on POTTERY carry higher values than on seals and tablets — analysis/numerals9_volumetric.py
+Prompted by Wells 2015 ch. 4-5 (cup + tall strokes on Harappa tablets and pots read as volumes). Merged corpus (5,369 objects, CISI classes, Wells codes W31-W35 = tall 1-5, W700 = cup), distinct texts per class.
+- Cup + tall-N formula: moulded tablets N = 3 mode (13/26), incised tablets N = 4 mode (5/13); the same pair occurs on pots ((33,700) and (700,33) are among 53 texts shared verbatim between pots and tablets).
+- Tall-N value profile, texts >= 3 signs: pots [14,14,14,6,3] (18% at N >= 4); tablets [29,63,29,3,2] (4%); seals [120,183,130,3,11] (3%). Pots vs seals permutation p < 0.0001. Two-sign texts: pots 18%, tablets 17%, seals 12%. Same at Harappa [12,10,15,8,1], Mohenjo-daro [9,4,7,0,4], Kalibangan [4,3,4,2,2].
+- Short strokes show NO class difference (share >= 7: pots 11%, tablets 10%, seals 9%).
+=> On seals and tablets the tall class is the formulaic element with favoured values 2-3 (F1/F8/F15 stand). On pottery graffiti the tall values are flat over 1-3 and reach 4-5 five times as often, at every site: there the tall strokes may be counts (consistent with Wells's vessel reading). Refines §2: 'not a number system' holds for the seal/tablet texts; pottery is the one class where a quantity reading of the TALL strokes survives our tests. Testable when Wells 2015 Table 4.2 (vessel units) is in hand.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
