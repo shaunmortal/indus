@@ -76,3 +76,19 @@ Read: polite, no engagement with the results, ICIT closed. Identified: ASINs = h
 
 ### Our reply to Fuls, 2026-10-15 ~22:05 IST (sent, in thread)
 Dear Dr Fuls, Thank you for the quick reply and the pointers. I will read the Corpus and Catalog volumes and Wells 2015; the Wells sign list is the base of the merged list I use, so the Catalog's positional data is directly relevant. One short question, if you have a moment: the ICIT transcription I used is the copy redistributed in a public GitHub reproduction package. Do you regard that copy as a faithful version of the final ICIT, or should I treat it as an earlier snapshot? With thanks, Ayush Kumar, Bhopal, India
+
+### Andreas Fuls, 2026-10-15 23:08 IST (reply to our question)
+> Dear Ayush Kumar, Yanjadevam made a copy same years ago without asking for permission. His data are partly outdated and he didn't made a distinction between complete and maybe complete texts on fragments. Regards, Andreas Fuls
+
+Verified: our copy flags every text complete/undamaged (2,543/2,543), so the distinction is indeed lost. Logged in STATE; limitation added to paper §7.
+
+### DRAFT reply 2 to Fuls (not sent; Ayush to approve)
+Dear Dr Fuls,
+
+Thank you, that is important and I have acted on it. In the copy I used every text is flagged complete, so the complete / possibly-complete distinction is indeed lost; I have recorded in the paper that the ICIT-based figures are replications on an outdated snapshot without that flag, and that the primary results rest on Mahadevan 1977, where doubtful signs are marked.
+
+Since the copy was made without your and Dr Wells's permission, I would rather not redistribute it. My repository currently includes CSV exports of that copy; if you prefer, I will remove them and keep only my own derived outputs, and I will cite the Corpus and Catalog volumes as the authoritative source. Please tell me which you prefer.
+
+With thanks,
+Ayush Kumar
+Bhopal, India
