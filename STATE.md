@@ -307,6 +307,10 @@ Pre-closer ('title') slot test: 526 jar-final texts (len>=4), stem = text minus 
 ### F24 (2026-10-15) No site dialect in seal sign usage — Mohenjo-daro vs Harappa
 Distinct seal texts: Mohenjo-daro 1163, Harappa 346; 55 signs with >=25 texts; permutation of site labels (2000): none passes Bonferroni 0.0009 (best M252 over at Harappa p=0.0035, M112 p=0.04, M230 under p=0.04). Seal-sign repertoire is shared between the two cities. With F18 (no neighbourhood effect) and F17 (no time drift): the seal lexicon was uniform across the civilisation's two capitals.
 
+### F25 (2026-10-15) Identity trails are real: identical texts recur across cities above chance
+Distinct (text, site) pairs 1853 (texts >=3 signs, Mahadevan v3). Texts attested at >=2 sites: 77 vs fair null 48.7 +- 4.5 (site labels shuffled among distinct pairs within length; 6 sd). By length: 3-sign 48, 4-sign 18, 5-sign 9, 6-sign 2. Site pairs: Harappa-Mohenjo-daro 47, Lothal-Mohenjo-daro 9, three-site 6+. The 11 texts of 5-6 signs are the best candidates for one owner/institution operating in two cities (list in log below).
+Note: a naive null that shuffles lines (not distinct pairs) gives 173 and reverses the conclusion — duplicates (mass-produced tablets) must be collapsed first (dedup rule again).
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
