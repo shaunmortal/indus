@@ -15,6 +15,9 @@ For each pair of Mahadevan signs with at least 15 tokens (104 signs, 5,356 pairs
 ## Validation by prediction
 Merging the eleven allograph pairs into a 406-sign list lowers held-out bigram perplexity on distinct texts from 29.0 to 26.3. Merging ten look-alike-but-distinct pairs instead gives 28.5. Sixty random merges of eleven frequent pairs give 28.6 +/- 0.3 (best 27.4). The algorithm's merges make the corpus more predictable by about seven standard deviations more than arbitrary merges do; the look-alike merges do no better than chance. Conditional entropy moves from 3.42 to 3.38 bits; hapax share is unchanged (29%).
 
+## Adoption rule
+Further candidates are adopted one at a time only if the held-out perplexity drop (five random 80/20 splits) beats a single-random-merge null by two standard deviations (threshold -0.136). Under this rule M14/M12 (-0.167) and M375/M387 (-0.182) are adopted; M386/M387 (-0.098) and the multi-tier stroke pair M121/M112 (-0.049) are not. The resulting list has 404 signs and perplexity 26.9 against about 29 for the published 417.
+
 ## Consequences
 - Mahadevan over-split M97/M98 and the fish and handled-jar variants; the corrected list has 406 signs.
 - Parpola's and Wells's practice of treating stroke groups of equal count as one numeral regardless of height or layout merges signs that the corpus keeps apart (M96/M106, M89/M109, and M102/M103 shown separately in note 1).

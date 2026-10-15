@@ -230,6 +230,10 @@ IM77 distinct texts (2409). Held-out bigram perplexity: published 417-sign list 
 - M3b (threshold 8 tokens, analysis/model3b_allographs_min8.py): 26 candidates. New: leaf-trident family M386~M387~M389 (+M375), person variants M12~M14~M15, and M112~M121 (7 as 4+3 vs 12 as 4+4+4: image 0.80, dist 0.85) — the multi-tier stroke 'number-names' behave as one family. Look-alike-distinct pairs: 91.
 => Corrected list v2 candidate: 406 minus {386,14,375?,121?} merges; test each by perplexity before adopting (M4 protocol).
 
+### M4b (2026-10-15) Merge adoption by prediction — analysis/model4b_adopt.py, data/model4_merges_v2.json
+Protocol: from the 406 list, test each extra candidate merge by 5-split held-out bigram perplexity; adopt only if the drop beats a single-random-merge null by 2 sd (null delta -0.032 +- 0.052; threshold -0.136).
+Adopted: M14->M12 (-0.167), M375->M387 (-0.182). Rejected: M386->M387 (-0.098), M121->M112 (-0.049). Corrected sign list v2 = 404 signs, ppl 26.89 (406: 27.23; 417: ~29). This is the first Indus sign list whose merges are each defended by out-of-sample prediction.
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
 - M5: extend M3 to ICIT/Wells signs via bridge (676-sign list has far more splits) and to CISI photos later.
