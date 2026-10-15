@@ -16,3 +16,11 @@ Chapters that map onto our results:
 
 Action taken: paper v0.4 §2 now cites Wells 2015 ch. 4-5 as the claim tested; References section added to the paper.
 Open: buy Wells 2015 PDF (GBP 16) if budget allows, to check sign 155/156/158 and tables 5.1-5.3 against our numbers. Ayush's call.
+
+## Check (2026-10-15): Wells fig. 2.4 set 155/156/158 against our distributional test
+Distinct Wells texts (1,918); context vector = left+right neighbours; cosine percentile among all pairs of signs with freq >= 20 (median 0.27, 95th pct 0.70).
+- 155-156: cos 0.69 (94th pct); 155-158: 0.63 (91st); 156-158: 0.67 (93rd). All three in the top decile, i.e. distributionally compatible with allography, but 155 has only 5 tokens and none of the three pairs reached our adoption rule (image similarity x 2-sd perplexity gain).
+- 156-151: cos 0.92 (100th pct), our top allograph candidate for 156 (not adopted either; perplexity gain below 2 sd).
+- 140-158 (our look-alike-distinct pair): cos 0.18 (38th pct) -> confirmed distinct.
+- 31-32 (merged in Wells v3): cos 0.71 (95th pct); Wells fig. 5.3 treats 031/032 as numerals with syllabic use -> consistent with our 'interchangeable' result.
+Reading: Wells's hand-picked allograph examples are the kind our test rates as similar-but-unproven; nothing contradicts either side. Decide after reading the chapter.
