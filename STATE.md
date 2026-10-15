@@ -133,6 +133,16 @@ Caveats: 94 seals; one survivor of 36 tests; Chanhu-daro reversed; needs replica
 ### F13 (2026-10-15) Numeral value does not track seal size — analysis/size6.py
 Site x length residual area vs stroke value: tall strokes Spearman rho +0.12 (p=0.08, n=228), short strokes rho -0.04 (p=0.53, n=206). Any-numeral vs none: +97 vs +66 mm2, no real gap. If strokes were rank numbers, bigger ranks should buy bigger seals; they do not. Consistent with F5 (strokes are formulaic, not ordinal).
 
+### F14 (2026-10-15) No sign is tied to an animal motif (independent confirmation of paragorth Q10) — analysis/icon1.py
+ICIT iconography (1032 seals with animal), site x length stratified permutation, 21 animal x sign tests with obs>=5: best Gaur x G100/M8 p=0.0105 (7 vs 2.5 expected), none survives Bonferroni 0.0024. Sign content and emblem are independent.
+
+### F15 (2026-10-15) Two-sided objects divide labour: side 1 = identity, side 2 = tall-stroke formula — analysis/sides1.py, sides2.py
+IM77 objects with two inscribed sides: 218 miniature tablets, 196 sealings.
+- Numerals sit on side 2: tablets 79% vs 20% on side 1; sealings 65% vs 15%. Jar-final sits on side 1 (15% vs 6%; 26% vs 11%). Side 1 longer (2.9 vs 2.3; 3.9 vs 2.9) and more varied (105 vs 59 distinct; 154 vs 75).
+- Side-2 numerals are almost all TALL strokes: 38 tall vs 8 short (distinct texts), followed by M328 (14 of 46). Single-sided seals: tall 421 vs short 384, followed by M59/M342/M162/M211.
+=> The two stroke classes have two homes: tall strokes + M328 is the administrative formula on the reverse of tablets/sealings; short strokes live inside seal texts (names). Side 1 of a tablet looks like a seal text; side 2 looks like a docket line. Supports F2 (two systems) with a functional explanation.
+Caveat: side-2 distinct sample is small (123 texts, 46 numeral tokens).
+
 ## Standing order (Ayush, 2026-10-15)
 Do not stop. Every session: continue "Next". Final report must be "Badhai ho Ayush" (with proof passing the protocol) or "Sorry Ayush" (with the complete map of everything searched). No fake Badhai.
 
