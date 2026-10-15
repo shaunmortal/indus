@@ -82,7 +82,7 @@ Dear Dr Fuls, Thank you for the quick reply and the pointers. I will read the Co
 
 Verified: our copy flags every text complete/undamaged (2,543/2,543), so the distinction is indeed lost. Logged in STATE; limitation added to paper §7.
 
-### DRAFT reply 2 to Fuls (not sent; Ayush to approve)
+### Reply 2 to Fuls — SENT 2026-10-15 23:12 IST (thread, 5 messages)
 Dear Dr Fuls,
 
 Thank you, that is important and I have acted on it. In the copy I used every text is flagged complete, so the complete / possibly-complete distinction is indeed lost; I have recorded in the paper that the ICIT-based figures are replications on an outdated snapshot without that flag, and that the primary results rest on Mahadevan 1977, where doubtful signs are marked.
