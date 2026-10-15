@@ -36,6 +36,10 @@ Takeaway: entropy / Zipf / positional stats CANNOT prove language. Any proof mus
 | paragorth (anon, solo + AI) | unknown | Open DB, preregistered predictions (Jul & Sep 2026), validator on unseen texts | Honest; records failures. KEY NEGATIVE RESULT: when only common signs are decoded, wrong keys beat the true key under every objective tested; only a small (~80-sign) syllabary makes the true key optimal |
 | Lengyel | n/a | Transformer to predict pronunciations (self-published) | Proposal only |
 
+## Directly relevant 2026 theory to engage (found 2026-10-15 while locating Frenez)
+- Frenez, D. 2026, 'Branding Authority: Further Considerations on the Oligopolistic Nature of the Indus Seal-Based Administrative System', Archaeologies (WAC), SSRN 6103846 (Jan 2026; author listed as Independent; also Subject Expert, Univ. Bologna DISCI; lecturer Padua 2026-27). Thesis: seals = institutional branding instruments within a heterarchy; extreme standardisation; unicorn dominance = stable unbalanced oligopoly; seals are 'procedural instruments of institutional recognition' rather than emblematic identities. OUR DATA SPEAK TO THIS: F26 (96% of seal texts unique = individual recognition), F14 (no sign-motif coupling = text and brand are separate channels), F19 (round seals = a second tradition), F27 (repeated title strings on smaller seals). Cite and discuss in paper v0.4; this is the right reader.
+- Frenez talk, Oct 2026 (YouTube): 'Ongoing decipherments: Writing in the Indus Civilization'.
+
 ## Lessons we must bake in
 1. Statistics prove structure, not language. Do not spend time re-proving entropy.
 2. Dictionary-hit maximization (Yajnadevam-style) is a trap: with a big dictionary and partial key, wrong keys win. Need key-stability + grouped hold-out.
