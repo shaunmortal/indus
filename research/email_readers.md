@@ -1,6 +1,6 @@
 # Emails to readers (Ayush sends from his own address; one per person; keep the subject exact)
 
-## 1. Dr Dennys Frenez — IIT Gandhinagar (dennys.frenez@iitgn.ac.in; his faculty page writes it as "dennys.frenez -AT- iitgn.ac.in")
+## 1. Dr Dennys Frenez — Independent scholar c/o Dept of History and Cultures, University of Bologna (dennys.frenez@unibo.it, from his Jan 2026 SSRN paper; the IITGn address bounced on 2026-10-15)
 Subject: A reproducible structural account of the Indus seal texts — request for a critical read (independent researcher, India)
 
 Dear Dr Frenez,
@@ -13,7 +13,7 @@ The main results, each tested with permutation nulls and multiple-comparison cor
 - seal text content is independent of emblem, excavation area and period, but round seals carry a distinct small lexicon, and the handled jar M343 sits on seals about 25% smaller within site, length and emblem strata;
 - 96% of square-seal texts are unique identifiers, with no inflectional alternation at the end (11 sd fewer than chance).
 
-I write to you because of your work on seals as markers of identity and on the Indus-related seals abroad, and because two things here touch it directly: the round-seal lexicon result and the 'hybrid-back' steatite stamps in Legrain's Ur volume (UE X nos. 636-650), which I re-read in connection with your 2014 'Hybrid Identities' paper that I could not find in print.
+I write to you because of your work on seals as markers of identity and on the Indus-related seals abroad, and because several of these results bear directly on your January 2026 paper on the oligopolistic, branding character of the seal system: the text channel and the motif channel appear to be statistically independent, the text is individual (unique) while the motif is standardised, and repeated title-like texts sit on smaller seals. I also re-read the 'hybrid-back' steatite stamps in Legrain's Ur volume (UE X nos. 636-650) in connection with your 2014 'Hybrid Identities' paper that I could not find in print.
 
 I would be grateful for a critical read of the draft, however brief, and for any correction of fact or method. I make no claim of decipherment; the aim is to fix what kind of text a seal carries before any reading is attempted. I would of course acknowledge your comments.
 
