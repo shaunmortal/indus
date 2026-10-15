@@ -12,6 +12,7 @@ Using the two open machine-readable corpora of the Indus script (Mahadevan 1977,
 Rules applied throughout: identical texts counted once (mass-produced tablets repeat one text up to 32 times); every effect tested within strata (site, text length, object class, and animal where relevant) by permutation of labels; Bonferroni over all tests in a family; a 30% hold-out (966 texts) sealed by SHA-256 on 2026-10-15 before any claim, never read.
 
 ## 2. Stroke signs are not a number system
+The reading of the stroke signs as numerals is the standard one (Mahadevan 1977; Wells 2015, ch. 5, which tabulates their right-adjacent collocations and reads the Harappa tablet strokes as quantities in a volumetric system, ch. 4). We test it on the whole corpus rather than on selected contexts.
 Complete inventory from the drawings: short strokes 1-12 in one, two and three tiers (M97-M122), tall strokes 1-5 (M86-M96), semicircles (M312-M315).
 - Share of distinct texts carrying a stroke sign: seals 56%, sealings 40%, miniature tablets 41%, pottery 46%, copper tablets 48%. Not concentrated on accounting objects.
 - Short-stroke values on distinct texts: 1 = 153, 3 = 114, 4 = 54, 5 = 34, 6 = 30, 7 = 64, 8 = 7, 9 = 4, 10 = 1, 12 = 52. Peaks at 7 and 12; the semicircle "tens" occur 2, 2, 1 and 1 times.
@@ -51,6 +52,20 @@ The Tamil Nadu State Department of Archaeology database (tngraffiti.in; 42 base 
 
 ## 7. Limits
 Drawings, not photographs, for the image tests; ICIT dimensions of unknown provenance (possibly from the same 1930s catalogues); OCR recall on those catalogues 20-70%; small samples on round seals abroad; the hold-out remains unread, so nothing here is a prediction test yet.
+
+## References
+- Frenez, D. 2026. Branding Authority: Indus stamp seals as institutional instruments. Archaeologies (WAC); preprint SSRN 6103846.
+- Fuls, A. 2022/2023. Corpus of Indus Inscriptions (Mathematica Epigraphica 3). Self-published.
+- Fuls, A. 2023. A Catalog of Indus Signs (Mathematica Epigraphica 4). Self-published.
+- Garg, P. 2026. Statistical key-fitting on short-text corpora cannot recover a planted language (reproduction package, GitHub).
+- Joshi, J.P. and Parpola, A. (eds). 1987. Corpus of Indus Seals and Inscriptions 1: Collections in India. Helsinki.
+- Legrain, L. 1951. Ur Excavations X: Seal Cylinders. London/Philadelphia.
+- Mahadevan, I. 1977. The Indus Script: Texts, Concordance and Tables. Memoirs of the ASI 77. New Delhi.
+- Marshall, J. 1931; Mackay, E.J.H. 1938; Vats, M.S. 1940. Excavation reports for Mohenjo-daro and Harappa (seal catalogues).
+- Shah, S.G.M. and Parpola, A. (eds). 1991. Corpus of Indus Seals and Inscriptions 2: Collections in Pakistan. Helsinki.
+- Wells, B.K. 2011. Epigraphic Approaches to Indus Writing. Oxford/Oakville: Oxbow.
+- Wells, B.K. 2015. The Archaeology and Epigraphy of Indus Writing, with technical appendices by A. Fuls. Oxford: Archaeopress.
+- Woolley, C.L. 1934 (UE II), Legrain 1936 (UE III), Woolley 1955 (UE IV), Woolley and Mallowan 1976 (UE VII). Ur Excavations series.
 
 ## Reproducibility
 Every number is produced by a script in `analysis/` from the open exports in `data/`; the hold-out hash and the prediction registry are in the public repository with dated commits.
