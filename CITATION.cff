@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "What the Indus seal texts are: a reproducible structural account (code, data tables, notes)"
+authors:
+  - family-names: Kumar
+    given-names: Ayush
+    affiliation: Independent researcher, India
+version: 0.3.0
+date-released: 2026-10-15
+repository-code: https://github.com/shaunmortal/indus
+license: MIT
+abstract: "Reproducible tests on the open Indus script corpora: stroke signs are not a number system; an objective allograph test and prediction-defended sign lists; physical correlates of signs; seal texts as unique identifiers without inflection; a sealed hold-out and a hashed prediction registry."
