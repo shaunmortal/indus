@@ -191,6 +191,10 @@ Pooled 1930s measurements (Marshall MIC 107 seals + Mackay FEM 278 seals, joins 
 => F12 DOWNGRADED to 'suggestive': effect size somewhere -15% to -25%, not independently confirmed. Caveats both ways: (a) ICIT dimensions may themselves derive from these catalogues (not independent), (b) OCR parsing recall is 116/550 for Marshall and 297/442 for Mackay, with possible size-biased loss. Note 2 section 1 must say this.
 Second-pass parser (marshall_sizes2.py) gives 117 serials, same as first: recall is limited by the OCR itself, not the parser. To go further: re-OCR the 293 MB OLMh scan of Marshall vol. II pp. 402-405 (needs tesseract; not installed), and parse Vats 1940 EH tables for Harappa (texts 4001-4905). Parked.
 
+### F19 extension (2026-10-15) Round seals at home sites are TEXT-ONLY seals with their own closer — analysis/round1.py
+Home-site distinct texts: 1557 square, 365 round. Round seals carry NO animal (346/365 'none'; square: unicorn 1135). Grammar otherwise alike: mean length 4.3 vs 4.4, jar-final 28.5% vs 33.8%, opener-initial 15.6% vs 18.2%. Differences: numerals 46% vs 38%; M169 on round seals is LAST in 20/33 (an alternative closer; on square it is rare), M387 initial/mid with partner W154 (12x) and jar; M343 absent (0.3%).
+=> The round/button seal is a different object class: no emblem, same name grammar, a small special lexicon (M169 closer, M387+W154 formula). Hypothesis for later: round seals = a different social group or function (e.g. non-elite or institutional), consistent with absence of the costly carved animal.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
