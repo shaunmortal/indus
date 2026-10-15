@@ -1,0 +1,7 @@
+.venv/
+data/raw/
+data/holdout/holdout.json
+data/holdout/work.json
+analysis/img/
+__pycache__/
+.DS_Store
