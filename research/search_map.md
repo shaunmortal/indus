@@ -25,7 +25,7 @@ Purpose: the standing order requires that a final verdict, whichever way, come w
 | Museum collections abroad, finds 2018-2026 | agent sweep | zero new Indus-inscribed objects abroad since 2018 |
 | India: Dholavira (Bisht 2015), Rakhigarhi 2011-26, Karanpura, Lothal L-56, Kanmer, Bhirrana, Farmana | reports/news sweeps (research/india_finds_2010-2026.md); L-56 checked on the CISI plate | Dholavira already in ICIT; Rakhigarhi seals unpublished; Karanpura's 4 objects already in corpus; L-56 Indus-only |
 | Weights as a numeric anchor (PNAS 2021 dataset) | download blocked (publisher/PMC interstitial); literature note research/numerals_weights_lit.md | open: needs the xlsx via browser |
-| Two-sided tablets (tall-N + cup formula) as quantities | F15, F33, F38, F39, P6/P16/P17; Wells's three Purana Qila pots (H-370-372) located in the corpus | formula with values {2,3,4}, never 5, rarely 1; value tied to the side-1 identity; not shown to be counts |
+| Two-sided tablets (tall-N + cup formula) as quantities | F15, F33, F38, F39, P6/P16/P17; Wells's three Purana Qila pots (H-370-372) located in the corpus | formula with values {2,3,4}, never 5, rarely 1; value varies per issue within {2,3,4}; not shown to be counts |
 
 ## C. People and data access
 | Who / what | Status |

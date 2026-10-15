@@ -24,3 +24,23 @@ for _ in range(R):
     for t,s1,n in pairs: g2[(t,s1)].append(next(it[t]))
     if sum(1 for v in g2.values() if len(v)>=2 and len(set(v))==1)>=same: cnt+=1
 print(f'null P(identical >= {same}) = {cnt/R:.4f}')
+
+# --- mould-deduplicated version: one object per (type, side-1 text, side-2 text); same-N then needs >=2 different side-2 texts
+ded={}
+for t,s1,n in pairs: pass
+objs2={}
+for k,v in obj.items():
+    if '1' in v and '2' in v and N_of(v['2']): objs2[(k[1],tuple(v['1'][0]),tuple(v['2'][0]))]=N_of(v['2'])
+pairs2=[(t,s1,n) for (t,s1,s2),n in objs2.items()]
+grp2=collections.defaultdict(list)
+for t,s1,n in pairs2: grp2[(t,s1)].append(n)
+multi2={k:v for k,v in grp2.items() if len(v)>=2}; same2=sum(1 for v in multi2.values() if len(set(v))==1)
+print(f'DEDUPED by (side-1, side-2) text: objects {len(pairs2)}; side-1 texts with >=2 distinct side-2 texts {len(multi2)}; same N on all {same2} ({same2/len(multi2):.0%})')
+vals2=collections.defaultdict(list)
+for t,s1,n in pairs2: vals2[t].append(n)
+cnt=0
+for _ in range(R):
+    it={t:iter(rng.sample(v,len(v))) for t,v in vals2.items()}; g2=collections.defaultdict(list)
+    for t,s1,n in pairs2: g2[(t,s1)].append(next(it[t]))
+    if sum(1 for v in g2.values() if len(v)>=2 and len(set(v))==1)>=same2: cnt+=1
+print(f'deduped null P(identical >= {same2}) = {cnt/R:.3f}')
