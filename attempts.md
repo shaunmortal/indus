@@ -1,3 +1,5 @@
+> 2026-10-16: the consolidated, maintained map of everything searched (methods, anchor routes, people, open watch) is research/search_map.md; this file is the Day-0 map of prior attempts in the literature.
+
 # 100 years of Indus script attempts — map (v0, 2026-10-15)
 
 Purpose: know what was tried, why it did not convince, so we never repeat a dead end unknowingly.
