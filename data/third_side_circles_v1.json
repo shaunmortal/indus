@@ -8,7 +8,9 @@
    "strokes": 3,
    "C": "3 circle-dots",
    "circles": 3,
-   "conf": "clear"
+   "conf": "clear; independently read by Ayush 2026-10-16",
+   "ayush_strokes": 3,
+   "ayush_circles": 3
   },
   {
    "cisi": "H-353",
@@ -17,16 +19,20 @@
    "strokes": 3,
    "C": "3 circle-dots",
    "circles": 3,
-   "conf": "clear"
+   "conf": "clear; independently read by Ayush 2026-10-16",
+   "ayush_strokes": 3,
+   "ayush_circles": 3
   },
   {
    "cisi": "H-354",
    "plate": "CISI1 p.230",
    "B": "strokes+V+strokes, split",
-   "strokes": null,
+   "strokes": 3,
    "C": "3 circle-dots",
    "circles": 3,
-   "conf": "B ambiguous"
+   "conf": "clear; independently read by Ayush 2026-10-16",
+   "ayush_strokes": 3,
+   "ayush_circles": 3
   },
   {
    "cisi": "H-351",
@@ -193,10 +199,10 @@
   }
  ],
  "summary": {
-  "pairs": 8,
-  "match": 6,
-  "coin_p": 0.145,
-  "readers": "Claude (plates) + Ayush (5 tablets, independent)"
+  "pairs": 9,
+  "match": 7,
+  "coin_p": 0.09,
+  "readers": "Claude (plates) + Ayush (8 tablets, independent)"
  },
  "note_P18": "H-338 (fish-shaped, cluster of 5-6 dots) was seen minutes after P18 was frozen and is logged as the first observation against it; rows on rectangular tablets remain 2-3 (H-295, 352-367, 888-889)."
 }
