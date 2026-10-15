@@ -263,6 +263,10 @@ Lists v3: data/model4_merges_v3.json (Mahadevan, 16 merges -> 401 signs), data/m
 ### M1 stability caveat (2026-10-15) — data/model1_classes_v3.json
 Re-deriving K=12 classes on the Wells v3 list (different random split) gives pairwise class agreement Jaccard 0.32 with the first run among 65 frequent signs. Fine-grained classes are NOT stable; only the coarse split is: initial signs (openers: W861/W820 family, plus rare first-only signs), final signs (closers: W740 jar family, W400/M176 family), medial core (fish, strokes, connectives). Any note must present the 3-4 coarse classes, not 12. Use a stability-selected K (consensus clustering) if finer classes are ever claimed.
 
+### F21 (2026-10-15) Multi-sign units do not improve prediction — analysis/segment1.py
+PMI-gated BPE-style merging on sign list v3, accepted only if held-out bits-per-sign improves: baseline 4.711; only ONE unit accepted (M336-M89, 79 train occurrences, PMI 5.0) -> 4.700; then no further gain. => Adjacency (bigram) already captures everything a 'word lexicon' would; there is no layer of reusable multi-sign words beyond fixed pairs. Consistent with M2. Segmentation 'words' claimed in the literature cannot be defended by prediction on this corpus.
+Books returned on archive.org (UE X, UE III) at Ayush's request.
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
 - (done) M5, M5c, U1. Remaining: write up sign-list v3 as note 3 v0.2; re-derive M1 classes on v3; Phase 4.3 segmentation.
