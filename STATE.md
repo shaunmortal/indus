@@ -251,9 +251,18 @@ Flag: W31~W32 adoption says one and two tall strokes are interchangeable in cont
 tall-1 -> tall-2 (M86->M87): -0.307 ADOPT (replicates W31~W32 on the independent corpus). tall-2 -> tall-3: -0.027 reject. tall-1 -> tall-3: -0.104 reject. short-1 -> short-3: -0.097 reject. short-3 -> short-4 (M102->M104): -0.179 ADOPT. Control plain jar -> handled jar: +0.023 reject (as it should).
 => One and two tall strokes occupy the same slot with the same partners on both corpora; so do three and four short strokes. If these were the digits 1, 2, 3, 4, their contexts would not be interchangeable in a corpus of quantities (different amounts go with different goods); interchangeability is what names and formulae show. Adds to F5/F7; the jar control shows the test is not merging indiscriminately.
 
+### U1 (2026-10-15) Unified list, first pass — analysis/unify1.py, data/unified_signs_v1.json, *_v3.json
+Union-find over bridge_WM + Mahadevan v2 + Wells v2 gives 31 multi-node clusters. CAVEAT: the paragorth bridge is many-to-one in places (W390 -> M161/162/167/168/169; W2 -> M99/100; W1 -> M97/98), so clusters chain through Wells's coarser splits; only per-pair prediction decides.
+Implied cross-corpus merges tested by the adoption rule:
+- IM77 adopted: M65->M59 (fish-with-caret = fish; matches Wells W235->W240), M86->M87 (again), M169->M162. Rejected 16 incl. all of M161/167/168->M162 (so Wells's W390 lumps distinct Mahadevan signs), M103->M102 (F7 holds), M100->M99, M105->M104, M107->M106, M110->M112 (two-tier forms are NOT their one-row twins; consistent with F7).
+- ICIT adopted: W405->W390, W407->W390 (tree/rake family), W742->W741, W745->W741 (handled jars, now adopted with 5-split test), W806->W803, W817->W861 (TWO OPENERS = one sign; bridge maps both to M267; Wells over-split the commonest opener). Rejected 23.
+- Perplexity after implied merges (before per-pair filtering): IM77 26.89 -> 24.70; ICIT 33.41 -> 29.81.
+Lists v3: data/model4_merges_v3.json (Mahadevan, 17 merges -> 400 signs), data/model5_merges_wells_v3.json (Wells, 12 merges).
+=> Every merge in both lists is now defended by out-of-sample prediction on its own corpus, and the cross-corpus bridge has been audited the same way.
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
-- (done) M5. Remaining: run the adoption rule on Wells merges; check W405/W407 font artefact; build one cross-corpus corrected list via bridge_WM.
+- (done) M5, M5c, U1. Remaining: write up sign-list v3 as note 3 v0.2; re-derive M1 classes on v3; Phase 4.3 segmentation.
 - Write note 3: 'Looking alike is not behaving alike: an objective allograph test for the Indus sign list'.
 
 ## Phase 3 candidates (pick at next session)
