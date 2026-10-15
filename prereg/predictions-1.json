@@ -1,0 +1,82 @@
+{
+ "author": "Ayush Kumar (India), with Claude",
+ "basis": "work set only (data/holdout/work.json); hold-out untouched",
+ "frozen": "2026-10-15",
+ "predictions": [
+  {
+   "falsifier": "observed share < 0.45 on >=20 new seals",
+   "id": "P1",
+   "n_work": 859,
+   "predicted": 0.676,
+   "scope": "new SQUARE seals, text >=3 signs",
+   "stat": "share whose LAST sign is in the closer class (13 signs)"
+  },
+  {
+   "falsifier": "observed share < 0.10 or > 0.50 on >=20 new seals",
+   "id": "P2",
+   "n_work": 859,
+   "predicted": 0.318,
+   "scope": "new SQUARE seals, text >=3 signs",
+   "stat": "share whose FIRST sign is in the opener class (9 signs)"
+  },
+  {
+   "falsifier": "round share >= square share on >=15 round seals",
+   "id": "P3",
+   "n_work": {
+    "round": 238,
+    "square": 859
+   },
+   "predicted": {
+    "round": 0.059,
+    "square": 0.157
+   },
+   "scope": "new seals of any shape",
+   "stat": "share containing the handled jar W741/M343 among ROUND seals vs SQUARE"
+  },
+  {
+   "falsifier": "observed share < 0.08 on >=15 round seals (square baseline 0.070)",
+   "id": "P4",
+   "n_work": 238,
+   "predicted": 0.168,
+   "scope": "new ROUND seals",
+   "stat": "share containing W407/M169 or W803/W806 (M387 family)"
+  },
+  {
+   "falsifier": "if strokes were quantities the shares should fall monotonically 4>5>6>7; we predict NON-monotone with value 7 >= values 5 and 6. Falsified if, on >=60 new stroke tokens, share(7) < share(5) and share(7) < share(6).",
+   "id": "P5",
+   "n_work": 152,
+   "predicted": {
+    "4": 0.349,
+    "5": 0.171,
+    "6": 0.171,
+    "7": 0.309
+   },
+   "scope": "new texts with stroke signs",
+   "stat": "short-stroke value shares among values 4,5,6,7 (Wells W4,W5,W16,W17)"
+  },
+  {
+   "basis": "IM77 (whole corpus; these objects are not in the sealed hold-out split, which is ICIT-based)",
+   "falsifier": "observed share < 0.12 on >=20 new two-sided tablets from Harappa",
+   "id": "P6",
+   "n_work": 121,
+   "predicted": 0.083,
+   "scope": "new two-sided TABLETS/SEALINGS from Harappa",
+   "stat": "share of DISTINCT side-2 texts (two-sided miniature tablets/sealings) ending in tall-stroke + cup M328 (Mahadevan v3 list)"
+  },
+  {
+   "falsifier": "ppl outside 20-60 on >=30 new texts",
+   "id": "P7",
+   "predicted": "between 25 and 45 per sign if the texts are Indus-script seal texts; > 80 if they are not Indus texts or are a different tradition",
+   "scope": "any new text",
+   "stat": "bigram perplexity of the new texts under the work-set bigram model (sign list v3)"
+  },
+  {
+   "falsifier": "a pair with ratio > 3 and p < 0.001 on >= 100 new seals",
+   "id": "P8",
+   "predicted": "no sign x animal pair passes Bonferroni on the new set alone",
+   "scope": "any new SQUARE seal with an animal",
+   "stat": "no sign will be significantly enriched by animal (F14)"
+  }
+ ],
+ "sign_list": "Wells v3 (data/model5_merges_wells_v3.json); classes data/model1b_consensus_classes.json"
+}
