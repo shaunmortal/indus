@@ -317,6 +317,7 @@ Note: a naive null that shuffles lines (not distinct pairs) gives 173 and revers
 
 ### F26 (2026-10-15) Seal texts are unique identifiers — multiplicity test (merged corpus, Wells v3)
 1296 square seals with >=3 signs carry 1219 distinct texts: 1167 texts (96%) occur on exactly one seal; 36 on two, 10 on three, 3 on four, 3 on five. 90% of all seals carry a text found on no other seal. Repeated texts are shorter (mean 3.6 signs vs 5.2 for unique) and formulaic: opener + stroke + tree (M267-M99-M102-M161 x5, M267-M99-M104-M161 x5, M391-M99-M102-M161 x4), M249-M161-M342 x5 (five sites), M59-M53-M342 x4.
+By object type (merged corpus, >=3 signs): square seals 90% unique-text objects (max multiplicity 5), round seals 95% (max 4), tags 71% (max 11), moulded tablets 44% (max 29), incised tablets 36% (max 32). Seals are identifiers; tablets are standardized issues (one text on up to 32 objects); tags sit between (several tags from one seal).
 => The seal text is an identifier of one owner (name-like), with a small set of short repeated title/office strings shared across cities. This is the quantitative basis for 'seals = personal names + titles'; together with F23 (no inflection) and F12/F19 (size and shape correlates) it fixes what kind of text we are trying to read.
 
 ### F27 (2026-10-15) Repeated (title-like) texts sit on smaller seals — analysis/size7.py
