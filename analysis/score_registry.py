@@ -1,4 +1,4 @@
-"""Score a NEW lot of inscriptions against the frozen registries (prereg/predictions-1..3). Usage:
+"""Score a NEW lot of inscriptions against the frozen registries (prereg/predictions-1..4). Usage:
   python analysis/score_registry.py LOT.json [--out prereg/results-<name>.md]
 LOT.json = list of objects: {"id": str, "seq": [Wells codes in READING order], "type": "SEAL:S"|"SEAL:R"|"TAB:B"|"TAB:I"|"TAB:C"|"POT"|"TAG"|..., "site": str,
   optional "side": 1|2 with "object": str for two-sided objects, optional "animal": str, optional "area_mm2": float}
@@ -10,7 +10,7 @@ Wm={int(k):v for k,v in json.load(open(f'{B}/data/model5_merges_wells_v3.json'))
 bridge={int(k):v['M'][0] for k,v in json.load(open(f'{B}/data/bridge_WM.json')).items() if v['M']}
 cl=json.load(open(f'{B}/data/model1b_consensus_classes.json'))['classes']; CLOSER=set(cl['0']); OPENER=set(cl['1'])
 SS=json.load(open(f'{B}/data/stroke_signs.json')); SHORTM={int(k):v for k,v in SS['short'].items()}
-TALL={31:1,32:2,33:3,34:4,35:5}; CUP=700; HJAR={741}; M169={407}; M387={803,806}
+TALL={31:1,32:2,33:3,34:4,35:5,36:6,37:7}; CUP=700; HJAR={741}; M169={407}; M387={803,806}
 work=json.load(open(f'{B}/data/holdout/work.json'))
 def norm(seq): return [Wm.get(int(g),int(g)) for g in seq]
 def shortval(w): m=bridge.get(w); return SHORTM.get(m) if m else None
@@ -79,6 +79,8 @@ def score(lot):
             for i,g in enumerate(s):
                 if g in TALL and ((i>0 and s[i-1]==CUP) or (i<len(s)-1 and s[i+1]==CUP)): pairs[TALL[g]]+=1
     if pairs: add('P16',sum(pairs.values()),max(pairs,key=pairs.get),None,'pred modal 3; falsified modal 1 or >=4 on >=15 pairs')
+    if pairs:
+        t=sum(pairs.values()); add('P17',t,{'value5':round(pairs[5]/t,3),'value1':round(pairs[1]/t,3),'values_2_3_4':round((pairs[2]+pairs[3]+pairs[4])/t,3)},None,'pred value5 0.0, value1 0.115, values 2-4 0.846; falsified on >=20 pairs if value5 >= 0.10 or values 2-4 < 0.60')
     # P6, P8, P12 need side/animal/area fields
     for pid,field in (('P6','side'),('P8','animal'),('P12','area_mm2')):
         if not any(field in o for o in lot): add(pid,0,None,'not scorable','lot lacks field '+field)
@@ -98,6 +100,7 @@ def verdicts(R):
         if pid=='P7' and n>=30: f='FALSIFIED' if (v<20 or v>60) else 'passed'
         if pid=='P15' and n>=40: f='FALSIFIED' if v>=0.12 else 'passed'
         if pid=='P16' and n>=15: f='FALSIFIED' if (v==1 or v>=4) else 'passed'
+        if pid=='P17' and n>=20: f='FALSIFIED' if (v['value5']>=0.10 or v['values_2_3_4']<0.60) else 'passed'
         if pid=='P14' and n>=25:
             sealv=next((x[2] for x in R if x[0]=='P15'),None); f='FALSIFIED' if (v<0.06 or (sealv is not None and v<=sealv)) else 'passed'
         out.append((pid,n,v,f,note))

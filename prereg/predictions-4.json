@@ -1,0 +1,20 @@
+{
+ "author": "Ayush Kumar (India), with Claude",
+ "basis": "work set only; hold-out untouched",
+ "frozen": "2026-10-16",
+ "predictions": [
+  {
+   "falsifier": "on >= 20 new cup pairs, value 5 appears in >= 10% of pairs, or values 2-4 together fall below 60%",
+   "id": "P17",
+   "n_work": 26,
+   "predicted": {
+    "value1": 0.115,
+    "value5": 0.0,
+    "values_2_3_4": 0.846
+   },
+   "scope": "new TABLETS (any type) carrying the cup W700/M328 adjacent to a tall stroke",
+   "stat": "share of such cup pairs whose tall value is 5, and share whose value is 1"
+  }
+ ],
+ "source": "F38, analysis/numerals11_cupvalues.py"
+}
