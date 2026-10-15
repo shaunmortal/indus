@@ -322,6 +322,10 @@ Note: a naive null that shuffles lines (not distinct pairs) gives 173 and revers
 ### F27 (2026-10-15) Repeated (title-like) texts sit on smaller seals — analysis/size7.py
 876 steatite square seals with measured faces; 150 carry a text found on >=2 seals. Site x length strata, 4000 permutations: repeated-text seals are 97 mm2 smaller (-14% of median), p=0.003. => Seals bearing shared office/title strings were cheaper objects than seals bearing unique identifiers. Fits F12 (M343 small-seal sign) and F26: the social hierarchy of the seal corpus runs name > title.
 
+### F28 (2026-10-15) Unique names share their core ENDINGS more than adjacency predicts
+726 unique square-seal texts >=5 signs; core = text minus opener/closer. Share of cores whose last 3 signs recur in another unique text: 204 (28%) vs bigram-sampled null 149 +- 13 (z +4.3); last 2 signs 395 vs 430 (z -2.2); first 2 signs 318 vs 457 (z -11, LESS shared than adjacency predicts); first 3 signs 154 vs 178 (z -1.9). (Against a sign-shuffled null everything is 'significant', z +9 to +35, which only shows adjacency; the bigram null is the honest one.)
+=> Within unique identifiers, the beginning is more individual than a bigram process would make it and the 3-sign ending before the closer is more shared. Candidate: a family/lineage/affiliation element at the end of the core (preceding the closer), with the individual element first. This is the first hint of internal NAME STRUCTURE; it is a Kober-style lead that F23 did not find at the closer itself.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
