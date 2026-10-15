@@ -363,6 +363,13 @@ Behaviour: TN composites give 795 base-base co-occurrences (722 pair types; 40/4
 Robustness (top-3 look-alikes >=0.55, any adjacent combination): observed 55.0% vs null 56.2% +- 4.4% (z -0.29). Same verdict. SIDE TEST CLOSED (Ayush: stay on the main path).
 Data: data/raw/tngraffiti/ (API https://api.tamilknowledgecampus.in/graffiti/; images S3 bv-signs/<id>.png; licence unstated, attribute TNSDA/RMRL).
 
+### F32 (2026-10-15) Robustness to doubtful readings — analysis/robust_doubtful.py
+Fuls's point (ICIT copy mixes complete and possibly-complete texts) tested on Mahadevan, which marks doubtful signs per line (437 of 3,916 lines, 11%). Dropping every line with a doubtful sign (distinct v3 texts 2,218 -> 1,938; >=3 signs 1,777 -> 1,544):
+- END alternation: 64 vs null 58.6 +- 2.1 (ratio 1.09) -> 49 vs 45.0 +- 1.9 (ratio 1.09). Unchanged.
+- Nesting of 2-3-sign texts in >=5-sign texts: 38.8% vs null 24.6% -> 37.6% vs 23.4%. Unchanged.
+- Short-stroke value profile (per distinct text): 1=151, 3=133, 4=49, 5=34, 6=3, 7=60, 8=7, 9=4, 10=1, 12=49 -> 136, 117, 43, 32, 3, 49, 4, 4, 1, 40. Same shape (7 and 12 peaks over 8-10 and 6).
+=> The structural results do not depend on doubtful or fragmentary readings. For the ICIT replication the flag is unavailable (F-note in paper §7); the Mahadevan primary results are clean.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
