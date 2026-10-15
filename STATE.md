@@ -203,6 +203,12 @@ Step 4.2: slot-grammar model P(next class | prev classes, object type) vs unigra
 Step 4.3: use the model to segment texts into units and to flag allograph pairs (signs with near-identical profiles).
 Step 4.4: compare with paragorth's hand-built FUNCTIONAL-DICTIONARY (independent derivation).
 
+### M1 (2026-10-15) First unsupervised function-class model — analysis/model1.py, data/model1_classes.json
+Work set only (2275 texts), 80/20 internal split, K=12 k-means on position + neighbour-class profiles, 3 refinement rounds.
+Classes recovered without labels: openers (class 11: W820/M391, W817/M267, 113 signs, 89% first), closers A (class 7: M176, M211, M12, M254; 83% last), closer family B (class 1: M342 jar, M161, M1, M169; 62% last), mid connectives (class 3: M99, M343, M97, M123; 87% mid), pre-closer title slot (class 10: M347, M8, M149, M194; 86% mid), initial elements (class 5: M267, M293, M216, M17; 54% first), core/counted (class 8: tall strokes, fish M59/M67/M65; 2788 tokens), docket (class 0: M328 cup, 44% last).
+Prediction on held-out 20% (1757 tokens): unigram ppl 130.9 / top-1 10.3%; sign bigram 71.5 / 20.8%; class-bigram x in-class 112.9 / 12.1%; mixture 76.4 / 17.6%.
+=> The class model is interpretable and matches paragorth's hand-built classes, but as a predictor it does NOT beat a plain sign bigram. Structure beyond bigram is weak or needs a richer model (M2: K sweep, trigram, interpolation tuned on dev).
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
