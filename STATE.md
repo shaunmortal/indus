@@ -18,7 +18,7 @@ Milestones (sign grammar, corpus tools, papers) are steps, never the goal.
 - [ ] Phase 0b: Build M <-> G <-> P sign concordance (upstream blocker; paragorth bridge covers 143 signs only)
 - [ ] Phase 0c: Normalize reading direction (website corpus is stored L-R as seen; M77 is in reading order R-L; G740 appears FIRST in website corpus but its equivalent M342 appears LAST in M77 -> reverse website sequences)
 - [x] Phase 0d: paragorth key files fetched (34 files, data/raw/paragorth/). Full Mahadevan corpus WITH site/object/level/direction: data/raw/paragorth/data/im77/im77_corpus_lines.csv (3916 lines, 2906 texts). Use THIS as the master corpus.
-- [x] Phase 2: 30% hold-out sealed (analysis/holdout.py, seed 20261015, stratified site x type): 966 of 3241 distinct texts. SHA-256 950c22bd56781dd60f9f00347e360fb3cc961d71b4712074b66973407fbab1ec. PUBLIC TIMESTAMP STILL NEEDED: Ayush must create a GitHub repo (or Zenodo record) and commit data/holdout/holdout.sha256. Do NOT read holdout.json in any analysis.
+- [x] Phase 2: 30% hold-out sealed (analysis/holdout.py, seed 20261015, stratified site x type): 966 of 3241 distinct texts. SHA-256 950c22bd56781dd60f9f00347e360fb3cc961d71b4712074b66973407fbab1ec. PUBLIC TIMESTAMP DONE 2026-10-15: https://github.com/shaunmortal/indus commit e332532 (merge f52df84) holds data/holdout/holdout.sha256. Do NOT read holdout.json in any analysis.
 
 ## Done
 - Problem chosen, explained to Ayush with real-world analogy.
@@ -130,7 +130,7 @@ Our own data results so far: F1, F2, F5 (numerals are formulaic, two stroke clas
 ## Next (in order)
 1. Complete F5: add two-tier strokes and semicircle signs; run per-site. Write it up as a 2-page note under Ayush's name.
 2. Download PNAS 2021 Dataset S1; test whether stroke-count sets match weight-denomination sets per commodity sign.
-3. Hold-out sealed locally. NEXT: Ayush creates a public GitHub repo; commit holdout.sha256 + note1 draft. (Needs his account.)
+3. (done) Repo public: https://github.com/shaunmortal/indus. Commit after every session.
 4. (started) M<->W concordance: analysis/concord1.py, concord2.py. Text-alignment voting (same site, same length, seed-consistent, unique match, >=3 unanimous votes) added 23 pairs to paragorth's 142 -> data/bridge_WM.json, 165 signs, 86.2% of ICIT tokens covered. Plateaus at iteration 2; to grow further relax to length>=2 texts or resolve ambiguous matches. P-signs: paragorth repro bridge.json gives W<->P<->M for 85 signs with shape descriptions (data/raw/paragorth/data/repro/repro/data/bridge.json). Merge into bridge_WM.json next.
 5. Susa text O shape comparison. Plate downloaded (data/raw/susa/, Hinz 1969 Taf.15 photo + colour photo). Viewed: 8 ruled columns, boxed geometric signs (X-in-square, circle-dot, comb/rake, D-shape). Looks like its own script, Proto/Linear-Elamite layout; a few shapes superficially Indus-like. Low prior. Do the shape test only after items 1-4; needs a permutation baseline or it proves nothing.
 6. Check CISI vol.1 entry L-56 (we have the PDF).
