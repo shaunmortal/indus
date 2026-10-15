@@ -16,8 +16,8 @@ Milestones (sign grammar, corpus tools, papers) are steps, never the goal.
 - [x] Phase 0: Download open corpora (done 2026-10-15, see Data inventory)
 - [x] Phase 0: Map attempts -> attempts.md (v0)
 - [x] Phase 1: Reproduce known results -> analysis/stats0.py (entropy, terminal sign, lengths all match literature)
-- [ ] Phase 0b: Build M <-> G <-> P sign concordance (upstream blocker; paragorth bridge covers 143 signs only)
-- [ ] Phase 0c: Normalize reading direction (website corpus is stored L-R as seen; M77 is in reading order R-L; G740 appears FIRST in website corpus but its equivalent M342 appears LAST in M77 -> reverse website sequences)
+- [x] Phase 0b: M <-> W concordance: data/bridge_WM.json 176 signs, 88.6% of ICIT tokens (paragorth 141 + alignment 24 + glyph-image 11, 2026-10-16). Parpola (P) codes not bridged.
+- [x] Phase 0c: Reading direction: joyboseroy CSV is WRITTEN order (reverse it); merged-corpus-reading-order.json and IM77 are reading order. Rule applied in every script since 2026-10-15; re-checked 2026-10-16 (F34).
 - [x] Phase 0d: paragorth key files fetched (34 files, data/raw/paragorth/). Full Mahadevan corpus WITH site/object/level/direction: data/raw/paragorth/data/im77/im77_corpus_lines.csv (3916 lines, 2906 texts). Use THIS as the master corpus.
 - [x] Phase 2: 30% hold-out sealed (analysis/holdout.py, seed 20261015, stratified site x type): 966 of 3241 distinct texts. SHA-256 950c22bd56781dd60f9f00347e360fb3cc961d71b4712074b66973407fbab1ec. PUBLIC TIMESTAMP DONE 2026-10-15: https://github.com/shaunmortal/indus commit e332532 (merge f52df84) holds data/holdout/holdout.sha256. Do NOT read holdout.json in any analysis.
 
