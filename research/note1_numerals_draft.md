@@ -1,5 +1,5 @@
 # Stroke signs in the Indus script are not a number system
-### Ayush Kumar (India), with computational assistance from Claude. Draft v0.1, 15 October 2026.
+### Ayush Kumar (India), with computational assistance from Claude. Draft v0.2, 15 October 2026.
 
 ## Claim
 The short and tall vertical-stroke signs of the Indus script, usually read as numerals (ones and tens, or ones and a measure), do not behave like a number system in the Mahadevan 1977 corpus. They behave like two separate classes of formulaic signs. Four tests, all on distinct texts (2,409 distinct sign sequences; duplicates collapsed), all reproducible from `analysis/numerals*.py` and the open IM77 export.
@@ -34,6 +34,9 @@ On 876 steatite square seals with measured faces (ICIT), controlling for site, t
 
 ## The "tens" that are not there
 Parpola's decimal reading makes inverted semicircles the tens. In the Mahadevan corpus the semicircle signs (M312-M315: one, two, three and a stack of arcs) occur 2, 2, 1 and 1 times on distinct texts. The decimal system rests on six tokens. By contrast the jar and cup signs with strokes drawn inside them (M329, M330, M344, M345: 7, 7, 33, 41 tokens) are mid-text or initial elements on seals, never closers; the stroke count inside them is part of a word, not a quantity attached to it.
+
+## Where the stroke signs sit in the only reproducible grammar
+A stability-selected clustering of sign function (73 frequent signs, 20 resamples per K) supports exactly three classes: openers (M267, M391 and seven others), closers (the jar M342, M161, M176, M211, the cup M328 and eight others) and a core of 51 signs. Both stroke classes sit in the core; the cup that follows tall strokes on tablet reverses is a closer. Finer classes do not survive resampling (adjusted Rand 0.31 at twelve classes against 0.59 at three), so this note claims nothing finer.
 
 ## What this does and does not show
 It does not say what the stroke signs mean. It says that the standard reading "stroke group = number of the following item" fails four independent tests on the only full open corpus, and that at least one layout distinction is lexical. Any decipherment that assigns numeric values to these signs must first explain Tests 1-4.
