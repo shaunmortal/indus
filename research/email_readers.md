@@ -19,7 +19,7 @@ I would be grateful for a critical read of the draft, however brief, and for any
 
 With respect and thanks,
 Ayush Kumar
-[city], India — [email]
+Bhopal, India — ayushkumar2.0ds@gmail.com
 
 ## 2. Dr Andreas Fuls — TU Berlin (andreas.fuls@tu-berlin.de; the ICIT page gives this as the administrator address)
 Subject: ICIT-based results on the Indus sign list and stroke signs — request for comments and ICIT access
@@ -34,7 +34,7 @@ I would value your comments and corrections, and I would also like to ask whethe
 
 With thanks,
 Ayush Kumar
-[city], India — [email]
+Bhopal, India — ayushkumar2.0ds@gmail.com
 
 ## 3. Dr Nisha Yadav — TIFR Mumbai (no public email found; use the TIFR people directory or the harappa.com contact form, or ask Dr Frenez for an introduction)
 Subject: Stroke signs and sign classes in the Indus corpus — a reproducible follow-up to your 2019 paper
@@ -47,7 +47,7 @@ I would be grateful for your critical reading of the short draft (research/paper
 
 With respect,
 Ayush Kumar
-[city], India — [email]
+Bhopal, India — ayushkumar2.0ds@gmail.com
 
 ## Rules for sending
 - Fill [city] and [email]. Send from your own address; one email per person; no attachments (links only).
