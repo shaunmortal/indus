@@ -118,6 +118,7 @@ Lothal L-56 = stylus wedges, Indus-only. Failaka "bilingual" = fringe, object ne
 ### F11 (2026-10-15) Museum collections + 2018-2026 finds abroad: nothing (research/hybrid_seals_new_finds.md)
 Six sweeps complete. Zero objects on Earth, published, with Indus signs + readable script. Zero new Indus-inscribed objects abroad since 2018. Bahrain 2026 tokens (Kanmer-like shape, cuneiform legends) show the admin technology crossed the Gulf; the script did not.
 Watch list: Failaka F6 2025 temple seals (unpublished); Konar Sandal resumed 2023; Rakhigarhi ASI 2022-24 seals (unpublished).
+WATCH SWEEP 2026-10-15 (evening): Failaka F6 — Oct 2025 news (Moesgaard/Kuwaiti-Danish): second Dilmun temple 11x11 m, c.1900-1800 BCE, 'seals' among finds, NO catalogue published yet. Rakhigarhi — no ASI report 2024-26; Kataria Feb 2026 review (ResearchGate) mentions the crocodile seal with five signs; ASI 2025-26 seasons report burials only. Konar Sandal — nothing after the 2008 preliminary report. Oman/Bahrain/Iraq/Iran 2026 — no new Indus-inscribed find reported. Next sweep: 2027-01 (quarterly). Sources: propakistani.pk 2025/10/27; researchgate.net/publication/400899408; harappa.com Salut.
 
 ### F12 (2026-10-15) First non-textual correlate of a sign: G741 (M343, jar-with-handles) sits on SMALLER seals — analysis/size1-4.py
 Data: ICIT seal dimensions joined to texts; 939 steatite square seals with width x height and a sign sequence (876 after site x length strata >=5).
