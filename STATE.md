@@ -385,6 +385,10 @@ Right-adjacent neighbours of the three stroke classes (layout of Wells 2015 tabl
 - short stacked (137 / 57): jar M342, M403, M59, M12 -> overlap 4/8 (small samples).
 => The collocation structure of the stroke classes is transcription-independent; the table is ready for a sign-by-sign comparison with Wells's printed tables. Note for scripts: joyboseroy CSV sign_sequence is WRITTEN order; reverse for reading order (merged-corpus-reading-order.json is already reading order).
 
+### F35 (2026-10-16) Anchor-readiness drill: what one anchored element would unlock — analysis/anchor_drill.py, data/anchor_drill_v1.json
+1,552 distinct seal texts (>=3 signs, merged corpus, Wells v3). One anchored title block touches at most 3.5% of texts (M59-336-89: 54 texts; M51-130-149: 18); one anchored opener formula M267-M99 touches 11%; the jar closer M342 sits in 49% of texts (36.5% as last sign); fish M59 36%, connective M99 34%, tall-2 M87 19%, M267 17%, M161 14%.
+=> An anchor is worth most if it carries a full standard text (opener formula + jar closer), not a title block alone; a bilingual with only a title block would fix <4% of the corpus. For museum/photo requests, prioritise objects whose Indus side shows the jar closer and an opener. Template for transcribing a new lot: prereg/lot_template.json.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.

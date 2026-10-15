@@ -1,0 +1,4 @@
+[
+ {"id": "example-1", "seq": [861, 2, 220, 740], "type": "SEAL:S", "site": "Failaka", "animal": "unicorn", "area_mm2": 420.0,
+  "note": "seq = Wells sign codes in READING order (right-to-left on the seal = first sign first). type: SEAL:S square, SEAL:R round, TAB:B moulded tablet, TAB:I incised tablet, TAB:C copper tablet, POT pottery, TAG. Optional: animal ('none' if no emblem), area_mm2, side (1/2) + object for two-sided objects. Transcribe WITHOUT looking at prereg/predictions-*.json; then run: .venv/bin/python analysis/score_registry.py prereg/<lot>.json"}
+]
