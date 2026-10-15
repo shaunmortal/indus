@@ -32,6 +32,8 @@ Started 15 October 2026. Goal: read the script in a way archaeologists accept. N
 - Two Ur excavation volumes (UE X 1951, UE III 1936) read page by page: no impression of an Indus-sign seal on any tablet or bulla; Ur is exhausted in print.
 - A frozen, hashed registry of eight falsifiable predictions for the next inscriptions to be published (`prereg/predictions-1.json`).
 
+- Tamil Nadu graffiti (tngraffiti.in, 42 base signs, 5,163 occurrences): 30 of 42 signs have an Indus look-alike, but the pairs of signs that co-occur on Tamil sherds do not correspond to pairs that co-occur in Indus texts any more than random frequency-matched signs do (p = 0.51). The 'parallels' are shapes, not behaviour. Code: `analysis/tn1_lookalikes.py`, `tn2_behaviour.py`.
+
 ## Proof protocol (never relaxed)
 
 1. One sign, one value, everywhere.
