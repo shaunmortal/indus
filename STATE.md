@@ -189,7 +189,7 @@ Phase 2 status (2026-10-15): 2A area done (F18 null), 2B period done (F17 null),
 ### F12 replication verdict (2026-10-15, analysis/replicate_size.py)
 Pooled 1930s measurements (Marshall MIC 107 seals + Mackay FEM 278 seals, joins confirmed by Mahadevan Appendix V, Mackay depth-level cross-tab validated): M343 n=33, delta -86 mm2 (-15% of median 563), one-sided p=0.11. MIC alone -146 vs +25 (n=7); FEM alone +40 vs +111 (n=26). M342 null (as in F12). Direction replicates, magnitude halves, significance does not.
 => F12 DOWNGRADED to 'suggestive': effect size somewhere -15% to -25%, not independently confirmed. Caveats both ways: (a) ICIT dimensions may themselves derive from these catalogues (not independent), (b) OCR parsing recall is 116/550 for Marshall and 297/442 for Mackay, with possible size-biased loss. Note 2 section 1 must say this.
-Next for power: raise Marshall parser recall (two-column OCR lines), and parse Vats 1940 EH tables for Harappa (texts 4001-4905).
+Second-pass parser (marshall_sizes2.py) gives 117 serials, same as first: recall is limited by the OCR itself, not the parser. To go further: re-OCR the 293 MB OLMh scan of Marshall vol. II pp. 402-405 (needs tesseract; not installed), and parse Vats 1940 EH tables for Harappa (texts 4001-4905). Parked.
 
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
