@@ -32,7 +32,7 @@ Started 15 October 2026. Goal: read the script in a way archaeologists accept. N
 
 - What the texts are (F23-F30): 96% of square-seal texts occur on one seal only (unique identifiers); repeated texts are short title strings and sit on seals 14% smaller; final-sign alternation on shared stems is at chance level (an earlier '11 sd fewer than chance' figure was a deduplication bug and is retracted); identical texts recur across cities above chance, but the cases are moulded tablets and title formulae, not shipments; shared 'blocks' cover no more of the texts than a bigram process would. The defensible picture: seal text = opener formula + individual element + title block + closer, with identity carried combinatorially.
 - Two Ur excavation volumes (UE X 1951, UE III 1936) read page by page: no impression of an Indus-sign seal on any tablet or bulla; Ur is exhausted in print.
-- A frozen, hashed registry of eight falsifiable predictions for the next inscriptions to be published (`prereg/predictions-1.json`).
+- Frozen, hashed registries of falsifiable predictions for the next inscriptions to be published: `prereg/predictions-1.json` (P1-P8), `predictions-2.json` (P9-P13, P11 withdrawn), `predictions-3.json` (P14-P16, tall-stroke values by object class; all computed on the work set only).
 
 - Tamil Nadu graffiti (tngraffiti.in, 42 base signs, 5,163 occurrences): 30 of 42 signs have an Indus look-alike, but the pairs of signs that co-occur on Tamil sherds do not correspond to pairs that co-occur in Indus texts any more than random frequency-matched signs do (p = 0.51). The 'parallels' are shapes, not behaviour. Code: `analysis/tn1_lookalikes.py`, `tn2_behaviour.py`.
 
