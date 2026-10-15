@@ -246,7 +246,10 @@ ICIT's own GLYPHSIMILARITY table (69 pairs) barely overlaps the frequent signs (
 - W405/W407 share font codepoint E1F0 (pixel-identical): image 1.00 is a FONT ARTEFACT; pair rejected by the rule anyway (-0.322 vs threshold -0.328).
 - Null single merge -0.082 +- 0.123, threshold -0.328. ADOPTED (6): fish family W231->W233->W220, W235->W240->W220 (all fish variants = one sign), W31->W32 (tall-1 = tall-2!), W706->W705. REJECTED: W806->W803, W742/W745->W741 (handled-jar variants stay separate here, unlike IM77), W923->W904, W156->W151, W630->W615, W384->W388.
 - Wells list v2: 586 signs, ppl 33.41 (from 37.65).
-Flag: W31~W32 adoption says one and two tall strokes are interchangeable in context. Cross-check on IM77 (M86 vs M87) pending.
+Flag: W31~W32 adoption says one and two tall strokes are interchangeable in context.
+### F20 (2026-10-15) Cross-check on IM77 (406 list, same adoption rule; null -0.020 +- 0.065, threshold -0.150)
+tall-1 -> tall-2 (M86->M87): -0.307 ADOPT (replicates W31~W32 on the independent corpus). tall-2 -> tall-3: -0.027 reject. tall-1 -> tall-3: -0.104 reject. short-1 -> short-3: -0.097 reject. short-3 -> short-4 (M102->M104): -0.179 ADOPT. Control plain jar -> handled jar: +0.023 reject (as it should).
+=> One and two tall strokes occupy the same slot with the same partners on both corpora; so do three and four short strokes. If these were the digits 1, 2, 3, 4, their contexts would not be interchangeable in a corpus of quantities (different amounts go with different goods); interchangeability is what names and formulae show. Adds to F5/F7; the jar control shows the test is not merging indiscriminately.
 
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
