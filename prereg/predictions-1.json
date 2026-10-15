@@ -56,12 +56,13 @@
   },
   {
    "basis": "IM77 (whole corpus; these objects are not in the sealed hold-out split, which is ICIT-based)",
-   "falsifier": "observed share < 0.12 on >=20 new two-sided tablets from Harappa",
+   "falsifier": "observed by-object share < 0.25 on >=20 new two-sided tablets from Harappa",
    "id": "P6",
-   "n_work": 121,
-   "predicted": 0.083,
+   "n_work": 414,
+   "note": "by distinct text types the share is only 0.083 (121 types): the formula is mass-produced. A new Harappa tablet lot should reproduce the by-object share.",
+   "predicted": 0.568,
    "scope": "new two-sided TABLETS/SEALINGS from Harappa",
-   "stat": "share of DISTINCT side-2 texts (two-sided miniature tablets/sealings) ending in tall-stroke + cup M328 (Mahadevan v3 list)"
+   "stat": "share of two-sided miniature tablets/sealings (BY OBJECT, duplicates counted) whose side-2 text ends in tall-stroke + cup M328"
   },
   {
    "falsifier": "ppl outside 20-60 on >=30 new texts",
