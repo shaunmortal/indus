@@ -176,6 +176,7 @@ ICIT seals, 1049 square vs 201 round, site x length strata, 121 tests, Bonferron
 - ROUND-favoured: W407/M169 (19 obs vs 4.7 exp, ratio 4.0), W154 (16 vs 5.4, 3.0), W806/M387 (35 vs 11.8, 3.0); W1/M97 one short stroke 1.8x (p=0.002).
 - SQUARE-only: W741/M343 102 of 102 on square (0 on round); W390/M161 120/124; W368/M402 51/52.
 Material (steatite vs unknown): nothing. Tablet type: incised tablets favour tall-2 M87 (27 vs 17, p=0.001) = the docket formula.
+Per-site replication (merged corpus): M169 on round seals Mohenjo-daro 10.5% (21/200), Harappa 7.3%, Lothal 6.2% vs square 0.6%/1.3%/0%. M387 round 13.0%/15.6%/3.1% vs square 1.1%/4.0%/1.9%. M343 round 0.5%/0%/0% vs square 9.7%/7.6%/5.6%. Same direction at every site with n>=8.
 => The round (Gulf-type) seal tradition has its own lexicon, and the small-seal sign M343 (F12) belongs exclusively to the square tradition. Extends paragorth's 'foreign grammar' with sign-level exclusivity.
 
 ## Next (in order)
