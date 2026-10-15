@@ -62,3 +62,17 @@ for _ in range(5000):
 print('pots vs seals (len>=3), diff in share N>=4: %.3f, perm p=%.4f'%(obs,cnt/5000))
 print('short-stroke values (texts >=2):',{c:(dict(sorted(sh[c].items())),'share>=7 %.0f%%'%(100*sum(v for n,v in sh[c].items() if n>=7)/max(1,sum(sh[c].values())))) for c in ('pot','tablet','seal')})
 print('pot tall-N by site:',{s:[k[n] for n in range(1,6)] for s,k in sorted(site.items(),key=lambda x:-sum(x[1].values()))[:4]})
+
+# --- part 3: drop stroke-only (tally) texts; Mahadevan 1977 replication is in STATE F33 (19 pot tokens, 1 at N>=4)
+STROKE=set(TALL)|{w for w,m in W2M.items() if str(m) in SHORT or m in SHORT}|{999}
+rec3=collections.defaultdict(collections.Counter); seen=set(); tally=collections.Counter()
+for o in objs:
+    s=tuple(o['seq']); c=cls3(o['type'])
+    if not c or len(s)<2 or (c,s) in seen: continue
+    seen.add((c,s))
+    if all(g in STROKE for g in s): tally[c]+=1; continue
+    for g in set(s):
+        if g in TALL: rec3[c][TALL[g]]+=1
+print('\nstroke-only texts dropped:',dict(tally))
+for c in ('pot','tablet','seal'):
+    k=rec3[c]; tot=sum(k.values()); print(' %-7s'%c,[k[n] for n in range(1,6)],'tot',tot,'share N>=4: %.1f%%'%(100*(k[4]+k[5])/tot))

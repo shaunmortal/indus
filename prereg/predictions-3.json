@@ -1,14 +1,14 @@
 {
  "author": "Ayush Kumar (India), with Claude",
  "basis": "work set only; hold-out untouched",
- "frozen": "2026-10-15",
+ "frozen": "2026-10-15 (v2)",
  "predictions": [
   {
-   "falsifier": "observed share <= the seal share on the same new lot, or < 0.08, on >= 25 tall-stroke tokens",
+   "falsifier": "observed share <= the seal share on the same new lot, or < 0.06, on >= 25 tall-stroke tokens",
    "id": "P14",
-   "n_work": 62,
-   "predicted": 0.177,
-   "scope": "new POTTERY graffiti with >=2 signs and at least one tall stroke (W31-W35 / M86-M96)",
+   "n_work": 41,
+   "predicted": 0.098,
+   "scope": "new POTTERY graffiti with >=2 signs, at least one tall stroke (W31-W35 / M86-M96) and at least one non-stroke sign",
    "stat": "share of tall-stroke tokens with value >= 4"
   },
   {
@@ -16,7 +16,7 @@
    "id": "P15",
    "n_work": 326,
    "predicted": 0.034,
-   "scope": "new SEALS (any shape) with >=2 signs and at least one tall stroke",
+   "scope": "new SEALS (any shape) with >=2 signs, at least one tall stroke and at least one non-stroke sign",
    "stat": "share of tall-stroke tokens with value >= 4"
   },
   {
@@ -28,5 +28,6 @@
    "stat": "modal tall value in that pair"
   }
  ],
- "source": "F33, analysis/numerals9_volumetric.py; numbers here from analysis/prereg3.py on the work set"
+ "source": "F33, analysis/numerals9_volumetric.py; numbers here from analysis/prereg3.py on the work set",
+ "supersedes": "v1 SHA-256 d1bc47c5e1d2e7536444be9a01328331bcdc451cb4e47ce0afc92a94168dd26d, re-frozen the same evening before any new text was seen: scope refined to exclude stroke-only (tally) texts after the Mahadevan 1977 pottery (19 tokens) failed to show the excess"
 }
