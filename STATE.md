@@ -334,7 +334,8 @@ Stem W920-W60-W741-W220-W220 (M293 opener + M123 + handled jar M343 + fish + fis
 - Mohenjo-daro M-647 (VS-A): + W100 + jar
 - Mohenjo-daro M-671 (VS-A): + W255-W435-W690 + jar  (the 10-name title block of F28b)
 - Mohenjo-daro M-1190 (DK-G South, 3B/C): + jar + W741
-Two of the four come from the same Mohenjo-daro quarter (VS-A). Reading as structure: one individual (or one house) holding several titles/offices, each title a known block. This is exactly the configuration Kober used; it is rare here (F23) but it exists, and it is the first place a single anchored title block would propagate across four seals and two cities.
+Two of the four come from the same Mohenjo-daro quarter (VS-A).
+CORRECTION (same evening, full enumeration): the 4-sign stem W920-W60-W741-W220 has NINE different continuations (also +W232 Harappa, +W350-W504, +W520 Nausharo, +W803, +W904-W740), and the other multi-continuation stems are all opener formulae (M267-M99-tall2-fish: 9 continuations; M267-M99-M387-fish: 6; M391-M123-fish-fish: 4). So a stem with many continuations is a FORMULA (opener + fixed block), not an individual; the variable continuation is the individual part. Read correctly: seal text = [opener formula block] [individual] [title block + closer], with formulaic material at BOTH ends and uniqueness in the middle (consistent with F28: beginnings less shared than bigram, endings more shared). The VS-A pair share the formula, not necessarily the person. Kober sets in the strict sense (one individual, several titles) are not demonstrable yet; the configuration to look for is a shared MIDDLE with different end blocks.
 
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
