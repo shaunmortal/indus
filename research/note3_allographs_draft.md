@@ -18,6 +18,9 @@ Merging the eleven allograph pairs into a 406-sign list lowers held-out bigram p
 ## Adoption rule
 Further candidates are adopted one at a time only if the held-out perplexity drop (five random 80/20 splits) beats a single-random-merge null by two standard deviations (threshold -0.136). Under this rule M14/M12 (-0.167) and M375/M387 (-0.182) are adopted; M386/M387 (-0.098) and the multi-tier stroke pair M121/M112 (-0.049) are not. The resulting list has 404 signs and perplexity 26.9 against about 29 for the published 417.
 
+## Replication on a second sign list and corpus
+The same procedure on Wells's list (642 glyphs rendered from the ICIT font; 1,918 distinct ICIT texts; 93 signs with 15 or more tokens) gives r = -0.01 between image and distributional similarity, recovers the same families (fish, handled jars, leaf-trident, person variants) and the same look-alike-but-distinct pairs (M149/M150, M242/M244, M1/M8), and its merges lower held-out perplexity from 37.65 to 32.01 against 35.04 for look-alike merges and 36.87 +/- 0.41 for random merges of the same count.
+
 ## Consequences
 - Mahadevan over-split M97/M98 and the fish and handled-jar variants; the corrected list has 406 signs.
 - Parpola's and Wells's practice of treating stroke groups of equal count as one numeral regardless of height or layout merges signs that the corpus keeps apart (M96/M106, M89/M109, and M102/M103 shown separately in note 1).

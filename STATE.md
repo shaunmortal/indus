@@ -234,9 +234,17 @@ IM77 distinct texts (2409). Held-out bigram perplexity: published 417-sign list 
 Protocol: from the 406 list, test each extra candidate merge by 5-split held-out bigram perplexity; adopt only if the drop beats a single-random-merge null by 2 sd (null delta -0.032 +- 0.052; threshold -0.136).
 Adopted: M14->M12 (-0.167), M375->M387 (-0.182). Rejected: M386->M387 (-0.098), M121->M112 (-0.049). Corrected sign list v2 = 404 signs, ppl 26.89 (406: 27.23; 417: ~29). This is the first Indus sign list whose merges are each defended by out-of-sample prediction.
 
+### M5 (2026-10-15) Cross-list replication on Wells/ICIT — analysis/model5_wells.py, model5b_validate.py, data/model5_wells_allographs.json
+Unblocked by the Indus font in yajnadevam/indus-website (GPL-3; src/assets/fonts/sk_indus_script-webfont.ttf) + GLYPH codepoints: 642 Wells glyphs rendered (data/raw/signs_wells/). Corpus: 1918 ICIT distinct texts, 93 signs with >=15 tokens.
+- corr(image, distribution) = -0.01 (M3: 0.05). Replicated: looks carry no information about function.
+- Allograph candidates (18) replicate M3's families on an independent transcription and sign list: fish W220/231/233/240 (= M59/70/72/67), handled jars W741/742/745 (= M343/344/345), leaf-trident W803/806 (= M387 variants), W151/156 (= M12/15), W384/388 (= M326/327). New: W705~W706 (Wells split of M336; dist 0.99, ranks 1/1), W904~W923 (M294/M296), W31~W32 (tall-1 ~ tall-2: dist 0.92 — tall strokes of different count behave alike, cf. F5), W405~W407 (image 1.00 may be a FONT artefact: identical glyphs; check).
+- Look-alike-distinct replicate: W690 vs W692 (= M149 vs M150, dist 0.25), W790 vs W817, W621 vs W632 (M242/M244), W90 vs W100 (M1 vs M8).
+- Validation (M4 protocol, ICIT): published ppl 37.65; M5 merges (14 signs folded) 32.01; look-alike-distinct merges 35.04; random same-count merges 36.87 +- 0.41 (best 35.86). The algorithm's merges beat random by ~12 sd on a second corpus.
+ICIT's own GLYPHSIMILARITY table (69 pairs) barely overlaps the frequent signs (2 pairs); not comparable.
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
-- M5: extend M3 to ICIT/Wells signs via bridge (676-sign list has far more splits) and to CISI photos later.
+- (done) M5. Remaining: run the adoption rule on Wells merges; check W405/W407 font artefact; build one cross-corpus corrected list via bridge_WM.
 - Write note 3: 'Looking alike is not behaving alike: an objective allograph test for the Indus sign list'.
 
 ## Phase 3 candidates (pick at next session)
