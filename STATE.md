@@ -278,6 +278,9 @@ Of 860 distinct 2-3-sign texts, 391 (45%) occur verbatim inside a longer (>=5) t
 - CORE (51 signs, 4510 tokens; 69% medial): fish M59, connective M99, tall strokes M87/M89, handled jar M343, M336, M387, M97, M123, short strokes.
 => The defensible grammar is OPENER? CORE+ CLOSER?, nothing finer. Finer 'title'/'number-name' classes (paragorth's 10 classes, our M1's 12) are not reproducible across resamples and must not be claimed.
 
+## MAIN PATH (re-affirmed 2026-10-15 night, Ayush: no straying)
+1. Indus text structure -> done to saturation (F1-F30, M1-M5, U1). 2. Anchor readiness -> sign list v3, prediction registry, hold-out sealed. 3. Deliverables under Ayush's name -> assemble notes 1-3 into one paper draft (research/paper_v0.3.md) for archaeologist review. 4. Anchor watch quarterly. Side tests (TN graffiti etc.) only if they feed 1-3.
+
 ## Next session (Phase 4 continued)
 - (done) M4. Remaining: rerun F1-F8 numerals on the 406 list (expected unchanged; stroke signs not merged).
 - (done) M5, M5c, U1, M1b, F21-F22. Remaining: note 1-3 v0.2 polish (coarse classes only); watch list; Cat. 623 U.17355 photo request (Penn/BM).
@@ -352,6 +355,7 @@ Also: prize has NO official rules/committee/deadline as of Oct 2026 (news quotes
 Images: 42 TN base signs vs 104 Mahadevan signs (>=15 tokens), M3 features. 30/42 TN signs have an Indus look-alike >= 0.60 (the top-5% level among Indus pairs), 9/42 >= 0.77; the strong matches are simple geometric forms (TN39 = one stroke M86 at 1.00; triangles/arrows M204/M209/M210; M137/M214; M244/M242). So the TN Department's '~60-90% morphological parallels' is reproducible as a SHAPE statement.
 Behaviour: TN composites give 795 base-base co-occurrences (722 pair types; 40/42 signs with >=5). Mapping each TN sign to its best Indus look-alike (16 distinct Indus signs, 460 usable pair occurrences): mean Indus PMI of the look-alike pairs +0.139 vs frequency-matched random mappings +0.203 +- 0.248 (z -0.26); share of TN pairs whose look-alikes are ever adjacent in Indus 23.9% vs 20.1% +- 6.3% (z +0.61); one-sided p = 0.51. The commonest TN pairs (TN1+TN2 24x, TN5+TN34 15x, TN1+TN31 13x) map to Indus pairs that are NEVER adjacent.
 => The TN graffiti signs that look like Indus signs do not combine the way their Indus look-alikes combine: no behavioural continuity is detectable. Caveats: composites are 2-sign graffiti, not texts; 16 look-alikes only; best-match mapping; small n. Scaled claim: the continuity argument, as currently made, rests on shape alone, and shape carries no functional information in the Indus corpus itself (M3, M5).
+Robustness (top-3 look-alikes >=0.55, any adjacent combination): observed 55.0% vs null 56.2% +- 4.4% (z -0.29). Same verdict. SIDE TEST CLOSED (Ayush: stay on the main path).
 Data: data/raw/tngraffiti/ (API https://api.tamilknowledgecampus.in/graffiti/; images S3 bv-signs/<id>.png; licence unstated, attribute TNSDA/RMRL).
 
 ## Phase 3 candidates (pick at next session)
