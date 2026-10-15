@@ -118,7 +118,7 @@ With thanks,
 Ayush Kumar
 Bhopal, India
 
-## DRAFT email 4: Prof. Asko Parpola (asko.parpola@helsinki.fi — address from the Columbia AMESA directory and Indology list; verify on TUHAT before sending) — NOT SENT, Ayush to approve
+## Email 4: Prof. Asko Parpola (asko.parpola@helsinki.fi) — SENT 2026-10-17 02:33 IST (Gmail Sent folder; no bounce at send time)
 Subject: The dots-in-circle side of the Harappa prism tablets: dot count = stroke count (8 of 9)
 
 Dear Professor Parpola,
