@@ -34,7 +34,7 @@ Purpose: the standing order requires that a final verdict, whichever way, come w
 | Dr Andreas Fuls (ICIT) | replied 2026-10-15: ICIT closed; our copy is an unauthorised, outdated snapshot without the completeness flag; asked for the export to be removed (decision pending with Ayush) |
 | Dr Dennys Frenez | emailed 2026-10-15 (paper + correction); no reply yet; follow-up planned 2026-10-29 |
 | Dr Nisha Yadav | no public address; via introduction |
-| Prof. Asko Parpola (CISI editor) | emailed 2026-10-17 with the F40 observation; asked for vol. 3 plates of three-sided tablets |
+| Prof. Asko Parpola (CISI editor) | emailed 2026-10-17 (helsinki.fi bounced; resent to his public gmail address) with the F40 observation; asked for vol. 3 plates of three-sided tablets |
 | Wells 2015, Fuls 2022/2023 volumes | not on hand (sample PDF only); sign-list and table comparisons prepared (F34, note_wells2015_toc.md) |
 | CISI vol. 3 (2010) | not on hand; needed to verify post-1987 pottery readings (F33) |
 
