@@ -21,6 +21,7 @@ Started 15 October 2026. Goal: read the script in a way archaeologists accept. N
 
 ## Results so far (15 Oct 2026)
 
+- 2026-10-16 additions: results robust to dropping doubtful readings (F32); tall strokes on pottery suggestive only (F33, registry P14-P16); stroke-class collocation tables agree across transcriptions (F34); anchor drill: one title block unlocks <4% of texts, the jar closer 49% (F35); ICIT seal dimensions for Mohenjo-daro/Harappa are the 1930s catalogue measurements, so the size results rest on one measurement set (F36). See STATE.md and research/search_map.md.
 - The short and tall vertical-stroke signs do not behave as a number system: not concentrated on accounting objects, value distribution peaks at 7 and 12, no place-value order, tall and short strokes have disjoint complements. Replicated on two independent transcriptions (Mahadevan 1977; ICIT/Wells). Draft: `research/note1_numerals_draft.md`.
 - Stroke-group layout is lexical for at least one value: three strokes in a row (M102) is productive; three strokes as 2-over-1 (M103) is bound to M403 in 27 of 28 cases across sites and object types.
 - No published object anywhere carries Indus signs together with a readable script. Six sweeps, documented in `research/`.
