@@ -10,7 +10,7 @@ Purpose: the standing order requires that a final verdict, whichever way, come w
 | Kober-style paradigms (alternating endings) | F23 (retracted), corrected: alternation at chance (64 vs 58.6 +- 2.4); F32 robust to doubtful readings | no closed paradigm; no welded endings |
 | Allographs / sign list | M3-M5, U1: image x distribution test validated by held-out perplexity; Mahadevan v3 (401), Wells v3 (586); bridge 176 signs | done; lists frozen |
 | Function classes / grammar depth | M1b (K=3 only stable), M2 (bigram-deep), F21/F30 (blocks add nothing) | opener + core + closer, nothing finer |
-| Physical correlates | F12 (M343 on smaller seals; the 1930s 're-analysis' uses the same measurements, F36), F13, F14 (no sign x animal), F17 (no drift), F18, F19 (round-seal lexicon), F24 (no site dialect), F27 | shape and size correlate; emblem, site, date do not |
+| Physical correlates | F12 (M343 on smaller seals; the 1930s 're-analysis' uses the same measurements, F36; no support on the small independent metric subset, F37), F13, F14 (no sign x animal), F17 (no drift), F18, F19 (round-seal lexicon), F24 (no site dialect), F27 | shape and size correlate; emblem, site, date do not |
 | What the texts are | F22, F25, F26 (96% unique), F28/F29 (title blocks, opener formulae), title_blocks_v1 (replicated) | personal identifiers: opener formula + individual + title block + closer |
 | Tamil Nadu graffiti continuity | F31 (look-alikes do not behave alike, p = 0.51) | closed (side test) |
 | Hold-out / registry | 30% sealed (SHA-256 public), P1-P16 frozen, score_registry.py | ready; waiting for new inscriptions |

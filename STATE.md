@@ -393,6 +393,12 @@ Right-adjacent neighbours of the three stroke classes (layout of Wells 2015 tabl
 ICIT widths: median exactly 25.4 mm; 25-29% of Mohenjo-daro/Harappa widths are exact multiples of 0.05 inch (Dholavira/Kalibangan 2%, metric). Direct join through IM77 (same site, identical text, unique both sides): 137 seals, |ICIT width - Marshall/Mackay width x 25.4| median 0.03 mm, 74% within 0.3 mm.
 => CORRECTION TO F12/F27 WORDING: the Marshall/Mackay/Vats re-analysis (-13%, one-sided p = 0.10) is a SUB-SAMPLE of the same measurements that ICIT carries, not an independent measurement. The size results (F12 handled jar -25% p = 0.0003; F27 repeated texts -14% p = 0.003) rest on ONE measurement set (the 1930s catalogues as transcribed into ICIT, plus post-1980s metric reports for Dholavira/Kalibangan/Lothal). Status of F12 stays 'suggestive'; an independent test needs fresh measurements (P12 on a new lot). Paper v0.5 sections 4 and 7 corrected. The DOI'd v0.4 and the reader emails still say 'independent 1930s measurements'; no separate correction email (the claim was already labelled suggestive) — carry the correction in v0.5 and in the Frenez follow-up if sent.
 
+### F37 (2026-10-16) Size effects on the only independent measurements: no support (small n) — analysis/size10_metric_subset.py
+ICIT steatite square seals from metrically measured sites (Lothal 25, Kalibangan 23, Nausharo 10, Allahdino 6, Banawali 5, Miri Qalat 2; Mohenjo-daro/Harappa/Chanhu-daro excluded as inch-derived, F36): 71 seals, 52 in site x length strata.
+- Handled jar M343 (F12): 7 seals, residual area +51 mm2 (+8%), one-sided p = 0.71 (wrong direction).
+- Repeated text (F27): 7 seals, -71 mm2 (-11%), p = 0.21 (right direction, not significant).
+=> With 7 cases each nothing can be decided, but the independent subset gives F12 no support. F12 is now: one measurement set, strong there (p = 0.0003), not replicated. Keep 'suggestive'; P12 on a new measured lot is the real test.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
