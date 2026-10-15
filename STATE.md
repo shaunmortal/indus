@@ -168,7 +168,7 @@ Goal: tie signs to non-textual variables with controls (the F12 method), because
 Mohenjo-daro Intermediate (401 objects) vs Late (317): 76 sign x period tests, none survives Bonferroni 0.00066; closest tall-2 M87 enriched in Late (45 vs 32 exp, p=0.0015), short-3 M102 in Intermediate (p=0.003). Harappa 3B (530) vs 3C (412): nothing (best p=0.016). The writing system did not drift measurably across the urban phases. Consistent with F9.
 
 ### F18 (2026-10-15) Signs are not neighbourhood markers — analysis/space1.py (area mapping fixed)
-Mohenjo-daro: 1258 objects across DK-G South (554), HR (201), DK-G North (120), DK-C, VS, DK-E, DK-B, DK-G; 225 sign x area tests, stratified by object class x length: NONE survives Bonferroni 0.00022 (best DK-G x M25 p=0.006, 5 obs vs 1.3 exp). Harappa: 1133 objects across Mounds F, ET, AB, E, D; 113 tests; ONE survivor: M176 (W400) enriched on Mound F (107 vs 87 expected, ratio 1.23, p<0.0005). M176 is the Harappa-typical sign after the jar closer; Mound F = Vats' old excavations, so an excavator/recording confound is possible.
+Mohenjo-daro: 1258 objects across DK-G South (554), HR (201), DK-G North (120), DK-C, VS, DK-E, DK-B, DK-G; 225 sign x area tests, stratified by object class x length: NONE survives Bonferroni 0.00022 (best DK-G x M25 p=0.006, 5 obs vs 1.3 exp). Harappa: 1133 objects across Mounds F, ET, AB, E, D; 113 tests; ONE survivor: M176 (W400) enriched on Mound F (107 vs 87 expected, ratio 1.23, p<0.0005). M176 is the Harappa-typical sign after the jar closer. Confound check (2026-10-15): among HARP-dated objects only (Mound F 510, nearly all HARP), M176 on F 20.4% vs 16.2% elsewhere; Vats-era objects on Mound F are only 3. Not an excavator artefact; a modest real enrichment (ratio ~1.26).
 => Sign repertoires are city-wide. No quarter, guild or family signature in the text content. Seals (names) were not tied to where they were found. Combined with F14 (no animal tie) and F17 (no time drift): the only external correlate found so far is seal SIZE (F12).
 
 ### F19 (2026-10-15) Round and square seals use partly different sign sets — analysis/material1.py
@@ -189,11 +189,19 @@ Phase 2 status (2026-10-15): 2A area done (F18 null), 2B period done (F17 null),
 ### F12 replication verdict (2026-10-15, analysis/replicate_size.py)
 Pooled 1930s measurements (Marshall MIC 107 seals + Mackay FEM 278 seals, joins confirmed by Mahadevan Appendix V, Mackay depth-level cross-tab validated): M343 n=33, delta -86 mm2 (-15% of median 563), one-sided p=0.11. MIC alone -146 vs +25 (n=7); FEM alone +40 vs +111 (n=26). M342 null (as in F12). Direction replicates, magnitude halves, significance does not.
 => F12 DOWNGRADED to 'suggestive': effect size somewhere -15% to -25%, not independently confirmed. Caveats both ways: (a) ICIT dimensions may themselves derive from these catalogues (not independent), (b) OCR parsing recall is 116/550 for Marshall and 297/442 for Mackay, with possible size-biased loss. Note 2 section 1 must say this.
+Vats 1940 EH tables parsed (analysis/vats_sizes.py, 237 serials; join text_no = 4000+EH running no. validated by depth, 65% within 1 ft). Pooled MIC+FEM+EH = 492 seals: M343 n=41, delta -75 mm2 (-13%), one-sided p=0.098. Direction in all three sources (MIC -146 vs +26; FEM +40 vs +111; EH +11 vs +43). Final verdict stands: suggestive.
 Second-pass parser (marshall_sizes2.py) gives 117 serials, same as first: recall is limited by the OCR itself, not the parser. To go further: re-OCR the 293 MB OLMh scan of Marshall vol. II pp. 402-405 (needs tesseract; not installed), and parse Vats 1940 EH tables for Harappa (texts 4001-4905). Parked.
 
 ### F19 extension (2026-10-15) Round seals at home sites are TEXT-ONLY seals with their own closer — analysis/round1.py
 Home-site distinct texts: 1557 square, 365 round. Round seals carry NO animal (346/365 'none'; square: unicorn 1135). Grammar otherwise alike: mean length 4.3 vs 4.4, jar-final 28.5% vs 33.8%, opener-initial 15.6% vs 18.2%. Differences: numerals 46% vs 38%; M169 on round seals is LAST in 20/33 (an alternative closer; on square it is rare), M387 initial/mid with partner W154 (12x) and jar; M343 absent (0.3%).
 => The round/button seal is a different object class: no emblem, same name grammar, a small special lexicon (M169 closer, M387+W154 formula). Hypothesis for later: round seals = a different social group or function (e.g. non-elite or institutional), consistent with absence of the costly carved animal.
+
+## Phase 4 (started 2026-10-15): our own algorithm — a predictive structure model
+Principle (Ayush): build it ourselves, deep. Constraint (paragorth S113-S121): no sound/dictionary fitting. Target: learn sign FUNCTION classes and a slot grammar from the work set only; validate by prediction on texts the model never saw (internal split of the work set; the sealed hold-out stays sealed until the final test).
+Step 4.1: position/neighbour profile per sign -> cluster into function classes (no labels).
+Step 4.2: slot-grammar model P(next class | prev classes, object type) vs unigram baseline; measure held-out perplexity and masked-sign accuracy.
+Step 4.3: use the model to segment texts into units and to flag allograph pairs (signs with near-identical profiles).
+Step 4.4: compare with paragorth's hand-built FUNCTIONAL-DICTIONARY (independent derivation).
 
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.

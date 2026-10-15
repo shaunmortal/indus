@@ -4,6 +4,7 @@ Strata: source x text length. 10,000 permutations. One-sided test in the pre-spe
 import json, csv, random, statistics as st, collections
 mar={int(k):v for k,v in json.load(open('data/marshall_seal_sizes.json')).items()}
 mac={int(k):v for k,v in json.load(open('data/mackay_seal_sizes.json')).items()}
+vats={int(k):v for k,v in json.load(open('data/vats_seal_sizes.json')).items()}
 im=list(csv.DictReader(open('data/raw/paragorth/data/im77/im77_corpus_lines.csv',encoding='utf-8')))
 im_by={}
 for r in im:
@@ -15,6 +16,9 @@ for ser,v in mar.items():
 for ser,v in mac.items():
     r=im_by.get(2000+ser)
     if r: recs.append(('FEM',[int(t) for t in r['signs_clean'].split()],v['w']*v['h']*645.16))
+for ser,v in vats.items():
+    r=im_by.get(4000+ser)
+    if r: recs.append(('EH',[int(t) for t in r['signs_clean'].split()],v['w']*v['h']*645.16))
 print("pooled seals:",len(recs),collections.Counter(s for s,_,_ in recs),"median area",round(st.median(a for _,_,a in recs)))
 random.seed(11)
 key=lambda i:(recs[i][0],min(len(recs[i][1]),8))
@@ -37,6 +41,6 @@ def test(sign,one_sided_smaller=True,n=10000):
 for sign,name,os in [(343,'M343 handled jar (pre-specified: smaller)',True),(342,'M342 plain jar (two-sided)',False),(169,'M169 (two-sided)',False),(176,'M176 (two-sided)',False),(161,'M161 (two-sided)',False)]:
     r=test(sign,os); print(f"{name}: "+(f"n={r[0]} delta={r[1]:+.0f} mm2 ({r[1]/st.median(a for _,_,a in recs):+.0%}) p={r[2]:.4f}" if r else "too few"))
 # per-source for M343
-for src in ['MIC','FEM']:
+for src in ['MIC','FEM','EH']:
     w=[resid[i] for i in keep if recs[i][0]==src and 343 in recs[i][1]]; wo=[resid[i] for i in keep if recs[i][0]==src and 343 not in recs[i][1]]
     print(f"  {src}: M343 n={len(w)} mean resid with={st.mean(w):+.0f} without={st.mean(wo):+.0f}")
