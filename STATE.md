@@ -209,6 +209,11 @@ Classes recovered without labels: openers (class 11: W820/M391, W817/M267, 113 s
 Prediction on held-out 20% (1757 tokens): unigram ppl 130.9 / top-1 10.3%; sign bigram 71.5 / 20.8%; class-bigram x in-class 112.9 / 12.1%; mixture 76.4 / 17.6%.
 => The class model is interpretable and matches paragorth's hand-built classes, but as a predictor it does NOT beat a plain sign bigram. Structure beyond bigram is weak or needs a richer model (M2: K sweep, trigram, interpolation tuned on dev).
 
+### M2 (2026-10-15) Exploitable sequential structure is bigram-deep — analysis/model2.py
+Work set 70/10/20, vocab 551. Test perplexity: unigram 87.2, bigram 48.2, trigram 51.3 (worse: sparsity), class-trigram alone 85-96 (K=8/20/40), class interpolated with trigram 47.8 (lambda 0.2) = no real gain.
+=> With texts averaging 4-5 signs, the only robust dependency a model can learn is between adjacent signs. Any 'grammar' claim must be a bigram-level claim (slot adjacency), not a syntax. Matches joyboseroy's 'order ~3 inconclusive beyond'. Our structure model's value is interpretation (M1 classes), not prediction.
+Next own-algorithm step (M3): allograph detection = image similarity of Mahadevan drawings x distributional similarity; separate true allographs (both high) from look-alike distinct signs (image high, distribution low, e.g. M102 vs M103).
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
