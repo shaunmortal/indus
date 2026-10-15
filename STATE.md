@@ -171,6 +171,13 @@ Mohenjo-daro Intermediate (401 objects) vs Late (317): 76 sign x period tests, n
 Mohenjo-daro: 1258 objects across DK-G South (554), HR (201), DK-G North (120), DK-C, VS, DK-E, DK-B, DK-G; 225 sign x area tests, stratified by object class x length: NONE survives Bonferroni 0.00022 (best DK-G x M25 p=0.006, 5 obs vs 1.3 exp). Harappa: 1133 objects across Mounds F, ET, AB, E, D; 113 tests; ONE survivor: M176 (W400) enriched on Mound F (107 vs 87 expected, ratio 1.23, p<0.0005). M176 is the Harappa-typical sign after the jar closer; Mound F = Vats' old excavations, so an excavator/recording confound is possible.
 => Sign repertoires are city-wide. No quarter, guild or family signature in the text content. Seals (names) were not tied to where they were found. Combined with F14 (no animal tie) and F17 (no time drift): the only external correlate found so far is seal SIZE (F12).
 
+### F19 (2026-10-15) Round and square seals use partly different sign sets — analysis/material1.py
+ICIT seals, 1049 square vs 201 round, site x length strata, 121 tests, Bonferroni 0.00041. Survivors:
+- ROUND-favoured: W407/M169 (19 obs vs 4.7 exp, ratio 4.0), W154 (16 vs 5.4, 3.0), W806/M387 (35 vs 11.8, 3.0); W1/M97 one short stroke 1.8x (p=0.002).
+- SQUARE-only: W741/M343 102 of 102 on square (0 on round); W390/M161 120/124; W368/M402 51/52.
+Material (steatite vs unknown): nothing. Tablet type: incised tablets favour tall-2 M87 (27 vs 17, p=0.001) = the docket formula.
+=> The round (Gulf-type) seal tradition has its own lexicon, and the small-seal sign M343 (F12) belongs exclusively to the square tradition. Extends paragorth's 'foreign grammar' with sign-level exclusivity.
+
 ## Next (in order)
 1. Complete F5: add two-tier strokes and semicircle signs; run per-site. Write it up as a 2-page note under Ayush's name.
 2. Download PNAS 2021 Dataset S1; test whether stroke-count sets match weight-denomination sets per commodity sign.
