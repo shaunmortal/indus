@@ -328,6 +328,14 @@ Note: a naive null that shuffles lines (not distinct pairs) gives 173 and revers
 The shared endings are TITLE BLOCKS: a fixed 3-sign string + its own fixed closer, preceded by an individual part. Top blocks across unique names: M59-M336-M89 + M211 (21 names, 20 with closer M211/W520; 5 sites), M59-M249-M161 + jar (12 names; Harappa, Mohenjo-daro, Dholavira, KISH), M51-M130-M149 + jar (10 names; incl. Kalibangan, Rakhigarhi), M343-M249-M161 + jar (5), M89-M110-M194 + jar (4). => Seal text = [opener] [individual element] [title block + closer]. The title block is where cross-city sharing lives (one block reaches Kish); the individual element is where uniqueness lives.
 Quantified: 59 unique names end in one of 7 top title blocks; their individual parts are 90% distinct (53/59), mean length 3.0 signs (0-9), 75% core-class tokens. One individual part, W60-W741-W220-W220, occurs with TWO different title blocks (two seals, same individual, two titles?) — the kind of pair a Ventris-style check would use once any block is anchored.
 
+### F29 (2026-10-15) The best Kober set in the corpus: one stem, four endings, two cities, one neighbourhood
+Stem W920-W60-W741-W220-W220 (M293 opener + M123 + handled jar M343 + fish + fish) on four square seals with four different continuations:
+- Harappa H-39 (Mound J, 3C-3): + W220-W590-W390 + jar
+- Mohenjo-daro M-647 (VS-A): + W100 + jar
+- Mohenjo-daro M-671 (VS-A): + W255-W435-W690 + jar  (the 10-name title block of F28b)
+- Mohenjo-daro M-1190 (DK-G South, 3B/C): + jar + W741
+Two of the four come from the same Mohenjo-daro quarter (VS-A). Reading as structure: one individual (or one house) holding several titles/offices, each title a known block. This is exactly the configuration Kober used; it is rare here (F23) but it exists, and it is the first place a single anchored title block would propagate across four seals and two cities.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
