@@ -73,3 +73,6 @@ Ayush Kumar
 > Kind regards, Andreas Fuls, Berlin (Germany)
 
 Read: polite, no engagement with the results, ICIT closed. Identified: ASINs = his 'Corpus of Indus Inscriptions' (2022/2023) and 'A Catalog of Indus Signs' (2023). Logged in STATE readers section.
+
+### Our reply to Fuls, 2026-10-15 ~22:05 IST (sent, in thread)
+Dear Dr Fuls, Thank you for the quick reply and the pointers. I will read the Corpus and Catalog volumes and Wells 2015; the Wells sign list is the base of the merged list I use, so the Catalog's positional data is directly relevant. One short question, if you have a moment: the ICIT transcription I used is the copy redistributed in a public GitHub reproduction package. Do you regard that copy as a faithful version of the final ICIT, or should I treat it as an earlier snapshot? With thanks, Ayush Kumar, Bhopal, India
