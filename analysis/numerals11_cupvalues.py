@@ -20,3 +20,17 @@ for v in sorted(tallT):
     n=tallT[v]; obs=byobj[v]; exp=n*share
     p=sum(math.comb(n,k)*share**k*(1-share)**(n-k) for k in range(obs+1))
     print(f'  value {v}: {n} tokens, {obs} with cup, expected {exp:.1f}, lower-tail p={p:.2e}')
+
+# --- distinct-text version (mould copies collapsed): the honest test
+T={tuple(o['seq']) for o in objs if o['type'].startswith('TAB')}
+tallD=collections.Counter(); cupD=collections.Counter()
+for s in T:
+    for i,g in enumerate(s):
+        if g in TALL:
+            tallD[TALL[g]]+=1
+            if (i>0 and s[i-1]==CUP) or (i<len(s)-1 and s[i+1]==CUP): cupD[TALL[g]]+=1
+shareD=sum(cupD.values())/sum(tallD.values())
+print('DISTINCT tablet texts',len(T),': tall by value',dict(sorted(tallD.items())),'with cup',dict(sorted(cupD.items())))
+for v in sorted(tallD):
+    n=tallD[v]; obs=cupD[v]; exp=n*shareD; p=sum(math.comb(n,k)*shareD**k*(1-shareD)**(n-k) for k in range(obs+1))
+    print(f'  value {v}: {n} texts, {obs} with cup, expected {exp:.1f}, lower-tail p={p:.3f}')
