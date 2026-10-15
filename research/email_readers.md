@@ -92,3 +92,17 @@ Since the copy was made without your and Dr Wells's permission, I would rather n
 With thanks,
 Ayush Kumar
 Bhopal, India
+
+### Andreas Fuls, 2026-10-15 23:14 IST
+> Dear Ayush Kumar, I would prefer to have the export being removed. Thank you for your understanding. Best regards, Andreas Fuls
+
+Ayush's decision: keep the exports for now, remove later. Reply pending.
+
+### DRAFT reply 3 to Fuls (not sent)
+Dear Dr Fuls,
+
+Understood, thank you. The export will be removed in the next release of the repository, which I plan for [date]; I will confirm when it is done. Until then the Mahadevan-based results, which are the primary ones, are unaffected.
+
+With thanks,
+Ayush Kumar
+Bhopal, India
