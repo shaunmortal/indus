@@ -53,3 +53,14 @@ Bhopal, India — ayushkumar2.0ds@gmail.com
 - Fill [city] and [email]. Send from your own address; one email per person; no attachments (links only).
 - Do not promise anything about the prize. Do not use the word 'decipherment' for our work.
 - If someone replies with corrections, paste the reply here; we log it in STATE and revise.
+
+
+## CORRECTION TO SEND if/when a reader replies (or proactively, Ayush's call)
+Subject: Correction to one figure in my earlier email
+
+Dear Dr [name],
+
+One figure in my earlier message was wrong and I want to correct it before you spend time on it. I wrote that final-sign alternation on shared stems was '11 sd fewer than chance'. That came from duplicate texts surviving in the shuffle null after sign merges. With proper deduplication the alternation is at chance level (64 observed vs 58.6 +/- 2.4 expected), so the right statement is weaker: there is no small closed set of endings alternating on shared stems, but endings are not welded to stems either. The repository and the draft (v0.4) are corrected; every other figure in the message stands.
+
+With apologies for the error,
+Ayush Kumar
