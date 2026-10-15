@@ -181,6 +181,16 @@ Per-site replication (merged corpus): M169 on round seals Mohenjo-daro 10.5% (21
 
 Phase 2 status (2026-10-15): 2A area done (F18 null), 2B period done (F17 null), 2C material/shape done (F19 positive), 2D per-site replication of F19 done. Draft note 2 written.
 
+## Phase 3 (started 2026-10-15): independent replication of F12
+- Marshall 1931 vol. II 'Tabulation of Seals' (OCR, archive.org) parsed: 116 serials with size (analysis/marshall_sizes.py, data/marshall_seal_sizes.json). JOIN VALIDATED: IM77 text_no = 1000 + MIC serial; table depth (ft) matches IM77 level code (2->2, 3->3, 4->4/5, 6->6, 7->7, 8->8).
+- First replication, 107 MIC seals: M343 n=7, delta -171 mm2 (-37% of median 466), p=0.17 (underpowered, direction matches). M342 +5% (null, matches). Need parser recall (116 of ~550 serials). Alternative Marshall OCR scans (B, C) are worse; dropped.
+- Mackay 1938 FEM vol. I tables parsed (analysis/mackay_sizes.py, 269 serials) BUT the join text_no = 2000 + FEM serial is NOT validated (depth match 7%, cross-tab random). FEM replication numbers are therefore meaningless until the join is fixed. RESOLVED by Mahadevan 1977 Appendix V intro (OCR, data/raw/books/Mahadevan1977_djvu.txt ~line 163950): 'fresh reference numbers ... e.g. 1561 for MIC 528b, 2705 for FEM 471a, 4714 for EH 36a; 1410 for MIC 410; 2199 for FEM 199'. So text_no = 1000+MIC serial, 2000+FEM serial, 4000+EH serial. Both joins are correct by construction; what failed for Mackay was my LEVEL parsing, not the join. FEM replication (250 seals): M343 n=20, delta -8%, p=0.66 = NOT replicated on this parse; must verify Mackay size parsing before concluding (median 546 mm2 vs ICIT 700 is suspicious).
+
+### F12 replication verdict (2026-10-15, analysis/replicate_size.py)
+Pooled 1930s measurements (Marshall MIC 107 seals + Mackay FEM 278 seals, joins confirmed by Mahadevan Appendix V, Mackay depth-level cross-tab validated): M343 n=33, delta -86 mm2 (-15% of median 563), one-sided p=0.11. MIC alone -146 vs +25 (n=7); FEM alone +40 vs +111 (n=26). M342 null (as in F12). Direction replicates, magnitude halves, significance does not.
+=> F12 DOWNGRADED to 'suggestive': effect size somewhere -15% to -25%, not independently confirmed. Caveats both ways: (a) ICIT dimensions may themselves derive from these catalogues (not independent), (b) OCR parsing recall is 116/550 for Marshall and 297/442 for Mackay, with possible size-biased loss. Note 2 section 1 must say this.
+Next for power: raise Marshall parser recall (two-column OCR lines), and parse Vats 1940 EH tables for Harappa (texts 4001-4905).
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
