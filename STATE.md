@@ -391,7 +391,7 @@ CAVEAT (same evening, replication): (1) Mahadevan 1977 pottery (independent tran
 3. (done) Repo public: https://github.com/shaunmortal/indus. Commit after every session.
 4. (started) M<->W concordance: analysis/concord1.py, concord2.py. Text-alignment voting (same site, same length, seed-consistent, unique match, >=3 unanimous votes) added 23 pairs to paragorth's 142 -> data/bridge_WM.json, 165 signs, 86.2% of ICIT tokens covered. Plateaus at iteration 2; to grow further relax to length>=2 texts or resolve ambiguous matches. P-signs: paragorth repro bridge.json gives W<->P<->M for 85 signs with shape descriptions (data/raw/paragorth/data/repro/repro/data/bridge.json). Merge into bridge_WM.json next.
 5. Susa text O shape comparison. Plate downloaded (data/raw/susa/, Hinz 1969 Taf.15 photo + colour photo). Viewed: 8 ruled columns, boxed geometric signs (X-in-square, circle-dot, comb/rake, D-shape). Looks like its own script, Proto/Linear-Elamite layout; a few shapes superficially Indus-like. Low prior. Do the shape test only after items 1-4; needs a permutation baseline or it proves nothing.
-6. Check CISI vol.1 entry L-56 (we have the PDF).
+6. (done 2026-10-15 late) CISI vol.1 L-56 viewed (PDF p. 287, plate 251): terracotta square seal, deep stylus-impressed strokes forming ordinary Indus signs; no cuneiform. Verdict in research/odd_objects.md stands: Indus-only.
 
 ## Failures (Day 1 evening)
 - CISI vol.1 OCR (CISI_vol1_India_text.pdf) has NO dimensions: its DATA tables list CISI no / field no / museum no only, and OCR is garbled. Independent measurements for F12 replication must come from Marshall 1931 / Mackay 1938 catalogues (archive.org scans) or HARP. Parked.
