@@ -386,7 +386,7 @@ CAVEAT (same evening, replication): (1) Mahadevan 1977 pottery (independent tran
 - Round-seal lexicon: what co-occurs with M169/M387 on round seals; are round-seal texts shorter/longer; do they lack the jar closer (paragorth says home frame 13%).
 
 ## Next (in order)
-1. Complete F5: add two-tier strokes and semicircle signs; run per-site. Write it up as a 2-page note under Ayush's name.
+1. (done) F5 completed by F15/F16 (two-tier strokes in stroke_signs.json; semicircles F16; per-site F24 no dialect); written up in paper v0.4 section 2.
 2. Download PNAS 2021 Dataset S1; test whether stroke-count sets match weight-denomination sets per commodity sign.
 3. (done) Repo public: https://github.com/shaunmortal/indus. Commit after every session.
 4. (started) M<->W concordance: analysis/concord1.py, concord2.py. Text-alignment voting (same site, same length, seed-consistent, unique match, >=3 unanimous votes) added 23 pairs to paragorth's 142 -> data/bridge_WM.json, 165 signs, 86.2% of ICIT tokens covered. Plateaus at iteration 2; to grow further relax to length>=2 texts or resolve ambiguous matches. P-signs: paragorth repro bridge.json gives W<->P<->M for 85 signs with shape descriptions (data/raw/paragorth/data/repro/repro/data/bridge.json). Merge into bridge_WM.json next.
