@@ -179,6 +179,15 @@ Material (steatite vs unknown): nothing. Tablet type: incised tablets favour tal
 Per-site replication (merged corpus): M169 on round seals Mohenjo-daro 10.5% (21/200), Harappa 7.3%, Lothal 6.2% vs square 0.6%/1.3%/0%. M387 round 13.0%/15.6%/3.1% vs square 1.1%/4.0%/1.9%. M343 round 0.5%/0%/0% vs square 9.7%/7.6%/5.6%. Same direction at every site with n>=8.
 => The round (Gulf-type) seal tradition has its own lexicon, and the small-seal sign M343 (F12) belongs exclusively to the square tradition. Extends paragorth's 'foreign grammar' with sign-level exclusivity.
 
+Phase 2 status (2026-10-15): 2A area done (F18 null), 2B period done (F17 null), 2C material/shape done (F19 positive), 2D per-site replication of F19 done. Draft note 2 written.
+
+## Phase 3 candidates (pick at next session)
+- Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
+- Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
+- Susa text O shape test (low prior).
+- PNAS weights xlsx via Chrome (JS interstitial), then stroke-set vs denomination-set per unit sign.
+- Round-seal lexicon: what co-occurs with M169/M387 on round seals; are round-seal texts shorter/longer; do they lack the jar closer (paragorth says home frame 13%).
+
 ## Next (in order)
 1. Complete F5: add two-tier strokes and semicircle signs; run per-site. Write it up as a 2-page note under Ayush's name.
 2. Download PNAS 2021 Dataset S1; test whether stroke-count sets match weight-denomination sets per commodity sign.
