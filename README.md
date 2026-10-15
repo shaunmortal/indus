@@ -26,6 +26,8 @@ Started 15 October 2026. Goal: read the script in a way archaeologists accept. N
 
 - Round vs square seals carry partly different sign sets at every site (M169, M387 round; M343, M161, M402 square). Animal emblem, excavation area, period and material show no sign association after correction. Draft: `research/note2_physical_correlates_draft.md`.
 
+- Our own models (Phase 4): sequential structure is bigram-deep (trigram and class models add nothing on held-out texts); an unsupervised function-class model recovers openers, closers, connectives and the docket slot; an allograph algorithm (drawing similarity x distributional similarity) finds that graphic resemblance carries no information about function overall (r = 0.05), and separates true allographs (fish variants, handled-jar variants, M97/M98) from look-alikes that are different signs (plain jar vs handled jar; tall vs short strokes). Code: `analysis/model1-3*.py`.
+
 ## Proof protocol (never relaxed)
 
 1. One sign, one value, everywhere.

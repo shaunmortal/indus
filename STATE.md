@@ -214,6 +214,13 @@ Work set 70/10/20, vocab 551. Test perplexity: unigram 87.2, bigram 48.2, trigra
 => With texts averaging 4-5 signs, the only robust dependency a model can learn is between adjacent signs. Any 'grammar' claim must be a bigram-level claim (slot adjacency), not a syntax. Matches joyboseroy's 'order ~3 inconclusive beyond'. Our structure model's value is interpretation (M1 classes), not prediction.
 Next own-algorithm step (M3): allograph detection = image similarity of Mahadevan drawings x distributional similarity; separate true allographs (both high) from look-alike distinct signs (image high, distribution low, e.g. M102 vs M103).
 
+### M3 (2026-10-15) Our allograph algorithm: looking alike is not behaving alike — analysis/model3_allographs.py, data/model3_allographs.json
+104 Mahadevan signs with >=15 tokens, 5356 pairs. Image similarity (centred 32x32 drawings, flip-invariant) vs distributional similarity (left/right neighbours + position, distinct IM77 texts).
+- Correlation between the two: 0.05 (permutation null 0.00 +- 0.05). Across the sign list, graphic resemblance carries essentially NO information about function.
+- TRUE ALLOGRAPH CANDIDATES (image >= 0.67, distribution >= 0.86; 15 pairs): M97~M98 (one short stroke, upper/lower: 1.00/0.93 — Mahadevan over-split), the fish family M59/M67/M70/M72 (0.88-0.96 image, 0.89-0.97 dist), the handled-jar family M343~M344~M345, M387~M389, M347~M348, M12~M15, M326~M327, M102~M109.
+- LOOK-ALIKES THAT ARE DIFFERENT SIGNS (image >= 0.67, distribution <= 0.64; 41 pairs): plain jar M342 vs handled jars M343/344/345 (image 0.91-0.97, dist 0.34-0.38); 5 tall vs 5 short strokes M96 vs M106 (1.00/0.51); M149 vs M150 (0.94/0.17); M153 vs M211 (0.92/0.19); 3 tall vs 3+3 short M89 vs M109 (0.91/0.58); cup M328 vs M336.
+=> An objective procedure for the sign-list problem (417 vs 592 vs 676). It says: merge the fish variants and the handled-jar variants; never merge the plain jar with the handled jar; never merge tall and short strokes of equal count. Generalises F7 and underwrites F2/F5.
+
 ## Phase 3 candidates (pick at next session)
 - Independent size replication: Mackay 1938 FEM (asi.nic.in/asi_books/9954.pdf) and Marshall 1931 vol. II seal catalogues list dimensions per seal; OCR + join by CISI/field number. Needed before note 2 circulates.
 - Mound F / M176 confound: split Harappa objects by excavator (Vats 1920s-30s vs HARP 1986+) using CISI number ranges.
