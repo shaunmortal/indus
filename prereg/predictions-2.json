@@ -2,6 +2,7 @@
  "author": "Ayush Kumar (India), with Claude",
  "basis": "work set only; hold-out untouched",
  "frozen": "2026-10-15",
+ "note": "P11 withdrawn before freezing: the underlying F23 result was retracted (deduplication bug). P9, P10, P12, P13 stand.",
  "predictions": [
   {
    "falsifier": "observed share < 0.45 on >=20 new seals",
@@ -93,14 +94,6 @@
    "predicted": 0.99,
    "scope": "new ROUND seals (>=3 signs), lot of >=20",
    "stat": "same uniqueness share"
-  },
-  {
-   "falsifier": "ratio >= 1.0 (i.e. alternation at or above chance would indicate inflection-like variation we claim is absent)",
-   "id": "P11",
-   "n_work": 839,
-   "predicted": 1.1,
-   "scope": "new square seals, lot of >=100 distinct texts",
-   "stat": "stems (text minus last sign) attested with >=2 different final signs, as a ratio to the within-length shuffle null"
   },
   {
    "falsifier": "positive difference with p < 0.05 on the new lot",
