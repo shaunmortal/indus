@@ -126,7 +126,12 @@ Data: ICIT seal dimensions joined to texts; 939 steatite square seals with width
 - Holds per site: Mohenjo-daro len 5-6 619 vs 778, len 7+ 869 vs 983; Harappa len 5-6 515 vs 713, len 7+ 713 vs 1452. Reversed at Chanhu-daro (n=4).
 - G741 is MID-text (86 of 94), usually preceded by G60 or G390; 56 of 94 co-occur with the plain jar G740 as closer. The closer itself (G740) has NO size effect (713 vs 713). Thickness no effect.
 => A mid-text element, not the closer, predicts a cheaper/smaller seal. Seal size is a proxy for owner status/cost. First case where a sign correlates with a physical, non-textual variable after controls. Interpretation (not claim): a lower-rank title or affiliation word.
-Caveats: 94 seals; one survivor of 36 tests; Chanhu-daro reversed; needs replication on CISI measurements (vol.1/2 PDFs give dimensions) before the note.
+Animal control (size5.py): G741 effect survives site x length x animal strata: n=71, delta -173 mm2, p=0.0007. Animal itself: Gaur seals smaller (-179, p=0.012), unicorn larger (+92, p=0.014), no-animal seals smaller (-255, p=0.008).
+IM77 profile of M343 (=G741): 176 lines, 134 seals; MID-text 151/176 (M342 plain jar is LAST 958/1378); preceded by M123 (30x), M209 (16x). Different slot from the closer, so Wells/Mahadevan were right to separate 342/343.
+Caveats: 94 seals; one survivor of 36 tests; Chanhu-daro reversed; needs replication on CISI measurements (vol.1/2 OCR PDFs give dimensions) before the note.
+
+### F13 (2026-10-15) Numeral value does not track seal size — analysis/size6.py
+Site x length residual area vs stroke value: tall strokes Spearman rho +0.12 (p=0.08, n=228), short strokes rho -0.04 (p=0.53, n=206). Any-numeral vs none: +97 vs +66 mm2, no real gap. If strokes were rank numbers, bigger ranks should buy bigger seals; they do not. Consistent with F5 (strokes are formulaic, not ordinal).
 
 ## Standing order (Ayush, 2026-10-15)
 Do not stop. Every session: continue "Next". Final report must be "Badhai ho Ayush" (with proof passing the protocol) or "Sorry Ayush" (with the complete map of everything searched). No fake Badhai.
@@ -145,6 +150,7 @@ Our own data results so far: F1, F2, F5 (numerals are formulaic, two stroke clas
 6. Check CISI vol.1 entry L-56 (we have the PDF).
 
 ## Failures (Day 1 evening)
+- CISI vol.1 OCR (CISI_vol1_India_text.pdf) has NO dimensions: its DATA tables list CISI no / field no / museum no only, and OCR is garbled. Independent measurements for F12 replication must come from Marshall 1931 / Mackay 1938 catalogues (archive.org scans) or HARP. Parked.
 - ancientportsantiques.com "Dholavira-Bisht2015.pdf" is NOT the ASI report: it is a 115-page fringe commentary (rebus "cipher" blog) with excerpts. Real report: Scribd doc/262316120 (needs browser) or ASI. Do not cite the PDF we have.
 - PNAS 2021 Dataset S1 (weights) download blocked by PMC JS proof-of-work interstitial; curl returns "Preparing to download". Use Chrome tool or manual download later. URL: https://pmc.ncbi.nlm.nih.gov/articles/instance/8271817/bin/pnas.2105873118.sd01.xlsx
 - Tooling: system python3 lacks PIL; project venv at indus/.venv (pillow, openpyxl, pypdf). Always call /Users/Happy/Desktop/plugins/indus/.venv/bin/python with absolute paths.
