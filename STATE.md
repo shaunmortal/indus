@@ -119,6 +119,15 @@ Lothal L-56 = stylus wedges, Indus-only. Failaka "bilingual" = fringe, object ne
 Six sweeps complete. Zero objects on Earth, published, with Indus signs + readable script. Zero new Indus-inscribed objects abroad since 2018. Bahrain 2026 tokens (Kanmer-like shape, cuneiform legends) show the admin technology crossed the Gulf; the script did not.
 Watch list: Failaka F6 2025 temple seals (unpublished); Konar Sandal resumed 2023; Rakhigarhi ASI 2022-24 seals (unpublished).
 
+### F12 (2026-10-15) First non-textual correlate of a sign: G741 (M343, jar-with-handles) sits on SMALLER seals — analysis/size1-4.py
+Data: ICIT seal dimensions joined to texts; 939 steatite square seals with width x height and a sign sequence (876 after site x length strata >=5).
+- Text length drives seal area (2 signs: median 467 mm2; 8 signs: 1049 mm2) — control required.
+- Stratified permutation (site x text length, 4000 perms, 36 signs tested, Bonferroni 0.0014): G741 delta = -172 mm2 (about -25% of median 700), p = 0.0003. Only sign to survive Bonferroni. G390 tree (M161) -137 mm2 p=0.003 borderline.
+- Holds per site: Mohenjo-daro len 5-6 619 vs 778, len 7+ 869 vs 983; Harappa len 5-6 515 vs 713, len 7+ 713 vs 1452. Reversed at Chanhu-daro (n=4).
+- G741 is MID-text (86 of 94), usually preceded by G60 or G390; 56 of 94 co-occur with the plain jar G740 as closer. The closer itself (G740) has NO size effect (713 vs 713). Thickness no effect.
+=> A mid-text element, not the closer, predicts a cheaper/smaller seal. Seal size is a proxy for owner status/cost. First case where a sign correlates with a physical, non-textual variable after controls. Interpretation (not claim): a lower-rank title or affiliation word.
+Caveats: 94 seals; one survivor of 36 tests; Chanhu-daro reversed; needs replication on CISI measurements (vol.1/2 PDFs give dimensions) before the note.
+
 ## Standing order (Ayush, 2026-10-15)
 Do not stop. Every session: continue "Next". Final report must be "Badhai ho Ayush" (with proof passing the protocol) or "Sorry Ayush" (with the complete map of everything searched). No fake Badhai.
 
