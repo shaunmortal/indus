@@ -136,7 +136,7 @@ Ayush Kumar
 Bhopal, India — ayushkumar2.0ds@gmail.com
 
 ## DRAFT scan request (library) — CISI vol. 3.1 — for Ayush to send himself to a library that holds it
-To: (Central Archaeological Library, ASI, Delhi: library@asi.nic.in or the Director (Publication) — verify address; or Deccan College Library, Pune; or IGNCA, Delhi; or the Finnish Academy / Tiedekirja for a paid scan)
+To: Director (Lib.), Central Archaeological Library, ASI, Dharohar Bhawan, 24 Tilak Marg, New Delhi 110001 — asilibrary2021@gmail.com (address published on asi.nic.in/pages/Central-Archaelogical-Library/HQ; phone 011-23004578/79)
 Subject: Request for scans of ~100 plate pages, CISI vol. 3.1 (Memoirs of the ASI 96), for non-commercial research
 
 Dear Librarian,
