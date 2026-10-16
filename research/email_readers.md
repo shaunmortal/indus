@@ -134,3 +134,19 @@ Thank you for your work on the Corpus, which made this possible from a laptop.
 With respect,
 Ayush Kumar
 Bhopal, India — ayushkumar2.0ds@gmail.com
+
+## DRAFT scan request (library) — CISI vol. 3.1 — for Ayush to send himself to a library that holds it
+To: (Central Archaeological Library, ASI, Delhi: library@asi.nic.in or the Director (Publication) — verify address; or Deccan College Library, Pune; or IGNCA, Delhi; or the Finnish Academy / Tiedekirja for a paid scan)
+Subject: Request for scans of ~100 plate pages, CISI vol. 3.1 (Memoirs of the ASI 96), for non-commercial research
+
+Dear Librarian,
+
+I am an independent student-researcher in Bhopal working on the Indus script with open, reproducible methods (github.com/shaunmortal/indus; doi:10.5281/zenodo.23399794). For a specific study I need to count marks on the photographs of a small set of Harappa tablets published only in:
+
+Parpola, A., B. M. Pande and P. Koskikallio (eds.), Corpus of Indus Seals and Inscriptions, Volume 3, Part 1: Mohenjo-daro and Harappa. Helsinki: Suomalainen Tiedeakatemia / Memoirs of the Archaeological Survey of India 96, 2010 (ISBN 978-951-41-1040-5).
+
+Could your library provide scans (any resolution at which the photographs are legible, 300 dpi preferred) of pages 137-206 (Harappa, old excavations, H-1020 to H-1520) and of those pages within 207-360 whose running header reads "TABLETS incised" or "GRAFFITI"? I would use them only for private study and would not redistribute them. I am glad to pay any copying or document-delivery charge, and to come in person if that is required.
+
+With thanks,
+Ayush Kumar
+Bhopal, India — ayushkumar2.0ds@gmail.com
