@@ -36,7 +36,7 @@ Purpose: the standing order requires that a final verdict, whichever way, come w
 | Dr Nisha Yadav | no public address; via introduction |
 | Prof. Asko Parpola (CISI editor) | emailed 2026-10-17 (helsinki.fi bounced; resent to his public gmail address) with the F40 observation; asked for vol. 3 plates of three-sided tablets |
 | Wells 2015, Fuls 2022/2023 volumes | not on hand (sample PDF only); sign-list and table comparisons prepared (F34, note_wells2015_toc.md) |
-| CISI vol. 3 (2010) | not on hand; needed to verify post-1987 pottery readings (F33) |
+| CISI vol. 3.1 (2010) | not on hand (only the 17-page front matter); needed for F33 pottery readings and the F40 three-sided tablets; scan request sent to the ASI library 2026-10-17; purchase option ~US$190 |
 
 ## D. Open watch (next sweep 2027-01)
 Failaka F6 2025 seals; Rakhigarhi ASI seals; Konar Sandal; Tamil Nadu prize rules; any Gulf/Iran/Iraq find with Indus signs; U.17355 photo.
