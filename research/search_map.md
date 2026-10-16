@@ -40,3 +40,8 @@ Purpose: the standing order requires that a final verdict, whichever way, come w
 
 ## D. Open watch (next sweep 2027-01)
 Failaka F6 2025 seals; Rakhigarhi ASI seals; Konar Sandal; Tamil Nadu prize rules; any Gulf/Iran/Iraq find with Indus signs; U.17355 photo.
+
+## 2026-10-16 (evening) — links from Nitish (Delhi)
+- github.com/mayig/indus-valley-script-corpus: CISI JSON digitization, Parpola 1982 sign codes, per-side records. Checked: only M-1…M-184 (vol 1 Mohenjo-daro start), last commit 2025-04-16, no Harappa, no vol 3. Not useful for F40/vol 3; noted as a future per-side source if it grows.
+- Google Books id 25tbzQEACAAJ = CISI vol 3.1 (2010, 443 pp, ISBN 9789514110405, OCLC 1123873858): no preview; sellers Rediff/Flipkart/Infibeam listed (Indian sellers — check stock).
+- acadsci.fi 2020-01-28: CISI 3.2 (Humaniora 383, minor sites) published, €160; bundle vols 1+2+3+3.2 €300 at Tiedekirja (tiedekirja.fi). Tiedekirja = publisher's own shop → check vol 3.1 price there vs Ruslania €191.
